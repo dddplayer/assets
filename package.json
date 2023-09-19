@@ -1,12 +1,12 @@
 {
-  "name": "@micro-frontend/content",
+  "name": "@dddplayer/assets",
   "version": "0.1.0",
   "private": false,
   "description": "Micro frontend content service",
-  "repository": "git@github.com:iteration-0/micro-frontend-content-react.git",
+  "repository": "git@github.com:dddplayer/assets.git",
   "author": "Wayde Sun",
   "license": "MIT",
-  "homepage": "https://mfe.main.sunwei.xyz",
+  "homepage": "https://assets.dddplayer.com",
   "scripts": {
     "build": "node index.js",
     "start": "serve -l 4999 --cors resource"
