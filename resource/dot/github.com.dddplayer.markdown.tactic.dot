@@ -1,0 +1,1847 @@
+digraph {
+	node [style=dotted shape=rect]
+
+    subgraph cluster_ddd_concept{
+		node [color=white]
+
+        ddd_concept [label=<
+        <table border="0" cellpadding="10">
+		<tr>
+			<td bgcolor="#ffffff00" rowspan="1" colspan="1">BoundedContext</td>
+			<td bgcolor="#ffd966ff" rowspan="1" colspan="1">AggregateRoot</td>
+			<td bgcolor="#ffe599ff" rowspan="1" colspan="1">Entity</td>
+			<td bgcolor="#a2c4c9ff" rowspan="1" colspan="1">ValueObject</td>
+			<td bgcolor="#e69138ff" rowspan="1" colspan="1">Service</td>
+		</tr>
+		<tr>
+			<td bgcolor="white" rowspan="1" colspan="1"></td>
+			<td bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Command</td>
+			<td bgcolor="#f6b26bff" rowspan="1" colspan="1">Event</td>
+			<td bgcolor="#cfe2f3ff" rowspan="1" colspan="1">Factory</td>
+			<td bgcolor="#b4a7d6ff" rowspan="1" colspan="1">Class</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor="white" rowspan="1" colspan="1"></td>
+			<td bgcolor="#f4ccccff" rowspan="1" colspan="1">General</td>
+			<td bgcolor="#ead1dcff" rowspan="1" colspan="1">Function</td>
+			<td bgcolor="#9fc5e8ff" rowspan="1" colspan="1">Interface</td>
+			<td bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Attribute</td>
+		</tr>
+        </table>
+        > ]
+	}
+
+    
+		subgraph cluster_dcXRFqY {
+	
+		
+    	dcXRFqY [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">markdown</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/dddplayer/markdown"
+
+	
+		subgraph cluster_deDS3Ut {
+	
+		
+    	deDS3Ut [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddVtCIW" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Find</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dels9Bm" bgcolor="#ffd966ff" rowspan="1" colspan="1">Parser</td>
+			<td port="dcIDnks" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">pc</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">parser</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/dddplayer/markdown/internal/domain/parser"
+
+	
+		subgraph cluster_dcZ3jeV {
+	
+		
+    	dcZ3jeV [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">valueobject</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "parser/valueobject"
+
+	
+		subgraph cluster_dQjFPA {
+	
+		
+    	dQjFPA [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dedNNTn" bgcolor="#f4ccccff" rowspan="1" colspan="2">Identifier</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddPXzJG" bgcolor="#f4ccccff" rowspan="1" colspan="2">Kind</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="7">general</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "parser/valueobject/general"
+
+	
+    }
+    }
+		subgraph cluster_ddDgycm {
+	
+		
+    	ddDgycm [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddn7S2a" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Identifier</td>
+			<td port="defxb5w" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Content</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddhuHCw" bgcolor="#ffe599ff" rowspan="1" colspan="1">block</td>
+			<td port="dcWz0xI" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">identifier</td>
+			<td port="dbgmxEG" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">content</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddKYiDB" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Parse</td>
+			<td port="dbOfUrC" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Identifiers</td>
+			<td port="dbBCVxc" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Kind</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dPM8K9" bgcolor="#ffe599ff" rowspan="2" colspan="1">heading</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dg0YMe" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">valid</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="der9Xw0" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Kind</td>
+			<td port="db5RjLt" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Parse</td>
+			<td port="dcVGk3m" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Identifiers</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbpcJiT" bgcolor="#ffe599ff" rowspan="1" colspan="1">paragraph</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dsFz7Q" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">InitParserMap</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddO1Ey6" bgcolor="#ffe599ff" rowspan="1" colspan="1">ParserCollection</td>
+			<td port="dd9EiCe" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">BlockParsers</td>
+			<td port="dbMfhj0" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">InlineParsers</td>
+			<td port="ddYluRK" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ParserMap</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddp1xYW" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Kind</td>
+			<td port="d46CE9" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Parse</td>
+			<td port="dbgTNck" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Identifiers</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcvYPN" bgcolor="#ffe599ff" rowspan="1" colspan="1">root</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbwfPlK" bgcolor="#ead1dcff" rowspan="1" colspan="1">FirstChar</td>
+			<td port="dJT6yb" bgcolor="#ead1dcff" rowspan="1" colspan="1">String</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dwHSw7" bgcolor="#9fc5e8ff" rowspan="1" colspan="1">Line</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbbpLM9" bgcolor="#ead1dcff" rowspan="1" colspan="1">Identifier</td>
+			<td port="dccsAjP" bgcolor="#ead1dcff" rowspan="1" colspan="1">Content</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dc0sMT3" bgcolor="#9fc5e8ff" rowspan="1" colspan="1">ParseResult</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddrSOrd" bgcolor="#ead1dcff" rowspan="1" colspan="1">Parse</td>
+			<td port="dcdrFFA" bgcolor="#ead1dcff" rowspan="1" colspan="1">Kind</td>
+			<td port="demLwjm" bgcolor="#ead1dcff" rowspan="1" colspan="1">Identifiers</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddHKdi5" bgcolor="#9fc5e8ff" rowspan="1" colspan="1">BlockParser</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="10">entity</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "parser/entity"
+
+	
+		subgraph cluster_ddn3Ohp {
+	
+		
+    	ddn3Ohp [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dc2UIsv" bgcolor="#ead1dcff" rowspan="1" colspan="1">NewHeading</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd4aE9y" bgcolor="#ead1dcff" rowspan="1" colspan="1">headerRaw</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd1ItSz" bgcolor="#ead1dcff" rowspan="1" colspan="1">level</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dccblPd" bgcolor="#ead1dcff" rowspan="1" colspan="1">NewParagraph</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddvXwkI" bgcolor="#ead1dcff" rowspan="1" colspan="1">NewParser</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbTKzH0" bgcolor="#ead1dcff" rowspan="1" colspan="1">newParserCollection</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd1qCVN" bgcolor="#ead1dcff" rowspan="1" colspan="6">NewRoot</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="8">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "parser/entity/function"
+
+	
+    }
+    }
+    }
+		subgraph cluster_dbWrsun {
+	
+		
+    	dbWrsun [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="degLShM" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">OpenBlock</td>
+			<td port="ddGSn9p" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Build</td>
+			<td port="def0c21" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Step</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddmmAHi" bgcolor="#ffd966ff" rowspan="2" colspan="1">Document</td>
+			<td port="dbBuszM" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">BlockTree</td>
+			<td port="dehsg5c" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Name</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dRMPN2" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">openRootBlock</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dKViVB" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">currentBlock</td>
+			<td port="dbJ192l" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">BlockParser</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="10">document</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/dddplayer/markdown/internal/domain/document"
+
+	
+		subgraph cluster_dePZUtZ {
+	
+		
+    	dePZUtZ [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dwUicd" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Close</td>
+			<td port="dcNyEt7" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">IsOpen</td>
+			<td port="dPDXji" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">AppendBlock</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deOh6a0" bgcolor="#a2c4c9ff" rowspan="3" colspan="1">BaseBlock</td>
+			<td port="duPPoH" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">TreeNode</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dRJjNO" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">ParentBlock</td>
+			<td port="ddjauDJ" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Node</td>
+			<td port="dbskFDT" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Kind</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcIhUDS" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">state</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcKLRFA" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Continue</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dKLRtq" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Parser</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dclysyH" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">RootBlock</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddrV9X1" bgcolor="#a2c4c9ff" rowspan="1" colspan="1">BlockTree</td>
+			<td port="ddEIESy" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Tree</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcD1wfq" bgcolor="#ead1dcff" rowspan="1" colspan="1">Kind</td>
+			<td port="dd3WMpE" bgcolor="#ead1dcff" rowspan="1" colspan="1">Close</td>
+			<td port="dc6ZRZo" bgcolor="#ead1dcff" rowspan="1" colspan="1">IsOpen</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="durxQJ" bgcolor="#9fc5e8ff" rowspan="3" colspan="1">Block</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd5a5YL" bgcolor="#ead1dcff" rowspan="1" colspan="1">ParentBlock</td>
+			<td port="dexA1E1" bgcolor="#ead1dcff" rowspan="1" colspan="1">AppendBlock</td>
+			<td port="dvkH9M" bgcolor="#ead1dcff" rowspan="1" colspan="1">Node</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbezHKH" bgcolor="#ead1dcff" rowspan="1" colspan="1">Continue</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="10">valueobject</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "document/valueobject"
+
+	
+		subgraph cluster_ddCUVMU {
+	
+		
+    	ddCUVMU [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="delLULH" bgcolor="#f4ccccff" rowspan="1" colspan="2">ParseDecision</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db6z2vU" bgcolor="#f4ccccff" rowspan="1" colspan="2">BlockState</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="7">general</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "document/valueobject/general"
+
+	
+    }
+		subgraph cluster_dcrE5Og {
+	
+		
+    	dcrE5Og [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dccNxVY" bgcolor="#ead1dcff" rowspan="1" colspan="4">NewTree</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "document/valueobject/function"
+
+	
+    }
+    }
+		subgraph cluster_dcX1QEI {
+	
+		
+    	dcX1QEI [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deeerbr" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Continue</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dblQgXB" bgcolor="#ffe599ff" rowspan="1" colspan="1">Head</td>
+			<td port="deJ038K" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">BaseBlock</td>
+			<td port="dbMDQMV" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Content</td>
+			<td port="dhLnvw" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Level</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd3yI76" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">FirstChar</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddVPBsX" bgcolor="#ffe599ff" rowspan="1" colspan="1">line</td>
+			<td port="dbzMbqu" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Line</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbscxoz" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Continue</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcbWkbb" bgcolor="#ffe599ff" rowspan="1" colspan="1">Paragraph</td>
+			<td port="du5p0U" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">BaseBlock</td>
+			<td port="dbcDZ2L" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Content</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd0u5EF" bgcolor="#ffe599ff" rowspan="1" colspan="1">Root</td>
+			<td port="dbiRprO" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">BaseBlock</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="8">entity</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "document/entity"
+
+	
+		subgraph cluster_ddXYotF {
+	
+		
+    	ddXYotF [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddG1TTb" bgcolor="#f4ccccff" rowspan="1" colspan="1">StepFunc</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dehYNaU" bgcolor="#f4ccccff" rowspan="1" colspan="1">StepIn</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcCywpP" bgcolor="#f4ccccff" rowspan="1" colspan="1">StepOut</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="8">general</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "document/entity/general"
+
+	
+    }
+		subgraph cluster_deoEVWF {
+	
+		
+    	deoEVWF [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbKkRJl" bgcolor="#ead1dcff" rowspan="1" colspan="1">NewHead</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbRiMXl" bgcolor="#ead1dcff" rowspan="1" colspan="1">NewLine</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddAIHQN" bgcolor="#ead1dcff" rowspan="1" colspan="1">NewParagraph</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="djzbSF" bgcolor="#ead1dcff" rowspan="1" colspan="2">isBlank</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbtww2R" bgcolor="#ead1dcff" rowspan="1" colspan="2">NewRoot</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="8">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "document/entity/function"
+
+	
+    }
+    }
+    }
+		subgraph cluster_dbPoIoJ {
+	
+		
+    	dbPoIoJ [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddd6MPW" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Scan</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dF3VHy" bgcolor="#ffd966ff" rowspan="1" colspan="1">Reader</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">reader</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/dddplayer/markdown/internal/domain/reader"
+
+	
+		subgraph cluster_dPHscO {
+	
+		
+    	dPHscO [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deialar" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">String</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dceJsQV" bgcolor="#ffe599ff" rowspan="1" colspan="1">Line</td>
+			<td port="ddJT38S" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Index</td>
+			<td port="dbYbIUf" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Content</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="d2wHdo" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Scan</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbxmmye" bgcolor="#ffe599ff" rowspan="1" colspan="1">LineReader</td>
+			<td port="dbwhcrN" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">F</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="7">entity</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "reader/entity"
+
+	
+		subgraph cluster_dUfT0J {
+	
+		
+    	dUfT0J [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddOoLeE" bgcolor="#f4ccccff" rowspan="1" colspan="4">ScanFunc</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">general</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "reader/entity/general"
+
+	
+    }
+		subgraph cluster_dcj5Ec5 {
+	
+		
+    	dcj5Ec5 [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbPRgAt" bgcolor="#ead1dcff" rowspan="1" colspan="4">NewLine</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "reader/entity/function"
+
+	
+    }
+    }
+    }
+    }
+		subgraph cluster_deDS3Ut {
+	
+		
+    	deDS3Ut [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddVtCIW" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Find</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dels9Bm" bgcolor="#ffd966ff" rowspan="1" colspan="1">Parser</td>
+			<td port="dcIDnks" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">pc</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">parser</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/dddplayer/markdown/internal/domain/parser"
+
+	
+		subgraph cluster_dcZ3jeV {
+	
+		
+    	dcZ3jeV [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">valueobject</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "parser/valueobject"
+
+	
+		subgraph cluster_dQjFPA {
+	
+		
+    	dQjFPA [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dedNNTn" bgcolor="#f4ccccff" rowspan="1" colspan="2">Identifier</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddPXzJG" bgcolor="#f4ccccff" rowspan="1" colspan="2">Kind</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="7">general</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "parser/valueobject/general"
+
+	
+    }
+    }
+		subgraph cluster_ddDgycm {
+	
+		
+    	ddDgycm [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddn7S2a" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Identifier</td>
+			<td port="defxb5w" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Content</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddhuHCw" bgcolor="#ffe599ff" rowspan="1" colspan="1">block</td>
+			<td port="dcWz0xI" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">identifier</td>
+			<td port="dbgmxEG" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">content</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddKYiDB" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Parse</td>
+			<td port="dbOfUrC" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Identifiers</td>
+			<td port="dbBCVxc" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Kind</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dPM8K9" bgcolor="#ffe599ff" rowspan="2" colspan="1">heading</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dg0YMe" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">valid</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="der9Xw0" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Kind</td>
+			<td port="db5RjLt" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Parse</td>
+			<td port="dcVGk3m" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Identifiers</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbpcJiT" bgcolor="#ffe599ff" rowspan="1" colspan="1">paragraph</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dsFz7Q" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">InitParserMap</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddO1Ey6" bgcolor="#ffe599ff" rowspan="1" colspan="1">ParserCollection</td>
+			<td port="dd9EiCe" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">BlockParsers</td>
+			<td port="dbMfhj0" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">InlineParsers</td>
+			<td port="ddYluRK" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ParserMap</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddp1xYW" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Kind</td>
+			<td port="d46CE9" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Parse</td>
+			<td port="dbgTNck" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Identifiers</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcvYPN" bgcolor="#ffe599ff" rowspan="1" colspan="1">root</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbwfPlK" bgcolor="#ead1dcff" rowspan="1" colspan="1">FirstChar</td>
+			<td port="dJT6yb" bgcolor="#ead1dcff" rowspan="1" colspan="1">String</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dwHSw7" bgcolor="#9fc5e8ff" rowspan="1" colspan="1">Line</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbbpLM9" bgcolor="#ead1dcff" rowspan="1" colspan="1">Identifier</td>
+			<td port="dccsAjP" bgcolor="#ead1dcff" rowspan="1" colspan="1">Content</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dc0sMT3" bgcolor="#9fc5e8ff" rowspan="1" colspan="1">ParseResult</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddrSOrd" bgcolor="#ead1dcff" rowspan="1" colspan="1">Parse</td>
+			<td port="dcdrFFA" bgcolor="#ead1dcff" rowspan="1" colspan="1">Kind</td>
+			<td port="demLwjm" bgcolor="#ead1dcff" rowspan="1" colspan="1">Identifiers</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddHKdi5" bgcolor="#9fc5e8ff" rowspan="1" colspan="1">BlockParser</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="10">entity</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "parser/entity"
+
+	
+		subgraph cluster_ddn3Ohp {
+	
+		
+    	ddn3Ohp [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dc2UIsv" bgcolor="#ead1dcff" rowspan="1" colspan="1">NewHeading</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd4aE9y" bgcolor="#ead1dcff" rowspan="1" colspan="1">headerRaw</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd1ItSz" bgcolor="#ead1dcff" rowspan="1" colspan="1">level</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dccblPd" bgcolor="#ead1dcff" rowspan="1" colspan="1">NewParagraph</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddvXwkI" bgcolor="#ead1dcff" rowspan="1" colspan="1">NewParser</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbTKzH0" bgcolor="#ead1dcff" rowspan="1" colspan="1">newParserCollection</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd1qCVN" bgcolor="#ead1dcff" rowspan="1" colspan="6">NewRoot</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="8">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "parser/entity/function"
+
+	
+    }
+    }
+    }
+		subgraph cluster_dbWrsun {
+	
+		
+    	dbWrsun [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="degLShM" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">OpenBlock</td>
+			<td port="ddGSn9p" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Build</td>
+			<td port="def0c21" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Step</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddmmAHi" bgcolor="#ffd966ff" rowspan="2" colspan="1">Document</td>
+			<td port="dbBuszM" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">BlockTree</td>
+			<td port="dehsg5c" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Name</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dRMPN2" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">openRootBlock</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dKViVB" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">currentBlock</td>
+			<td port="dbJ192l" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">BlockParser</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="10">document</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/dddplayer/markdown/internal/domain/document"
+
+	
+		subgraph cluster_dePZUtZ {
+	
+		
+    	dePZUtZ [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dwUicd" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Close</td>
+			<td port="dcNyEt7" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">IsOpen</td>
+			<td port="dPDXji" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">AppendBlock</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deOh6a0" bgcolor="#a2c4c9ff" rowspan="3" colspan="1">BaseBlock</td>
+			<td port="duPPoH" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">TreeNode</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dRJjNO" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">ParentBlock</td>
+			<td port="ddjauDJ" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Node</td>
+			<td port="dbskFDT" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Kind</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcIhUDS" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">state</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcKLRFA" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Continue</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dKLRtq" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Parser</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dclysyH" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">RootBlock</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddrV9X1" bgcolor="#a2c4c9ff" rowspan="1" colspan="1">BlockTree</td>
+			<td port="ddEIESy" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Tree</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcD1wfq" bgcolor="#ead1dcff" rowspan="1" colspan="1">Kind</td>
+			<td port="dd3WMpE" bgcolor="#ead1dcff" rowspan="1" colspan="1">Close</td>
+			<td port="dc6ZRZo" bgcolor="#ead1dcff" rowspan="1" colspan="1">IsOpen</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="durxQJ" bgcolor="#9fc5e8ff" rowspan="3" colspan="1">Block</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd5a5YL" bgcolor="#ead1dcff" rowspan="1" colspan="1">ParentBlock</td>
+			<td port="dexA1E1" bgcolor="#ead1dcff" rowspan="1" colspan="1">AppendBlock</td>
+			<td port="dvkH9M" bgcolor="#ead1dcff" rowspan="1" colspan="1">Node</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbezHKH" bgcolor="#ead1dcff" rowspan="1" colspan="1">Continue</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="10">valueobject</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "document/valueobject"
+
+	
+		subgraph cluster_ddCUVMU {
+	
+		
+    	ddCUVMU [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="delLULH" bgcolor="#f4ccccff" rowspan="1" colspan="2">ParseDecision</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db6z2vU" bgcolor="#f4ccccff" rowspan="1" colspan="2">BlockState</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="7">general</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "document/valueobject/general"
+
+	
+    }
+		subgraph cluster_dcrE5Og {
+	
+		
+    	dcrE5Og [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dccNxVY" bgcolor="#ead1dcff" rowspan="1" colspan="4">NewTree</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "document/valueobject/function"
+
+	
+    }
+    }
+		subgraph cluster_dcX1QEI {
+	
+		
+    	dcX1QEI [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deeerbr" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Continue</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dblQgXB" bgcolor="#ffe599ff" rowspan="1" colspan="1">Head</td>
+			<td port="deJ038K" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">BaseBlock</td>
+			<td port="dbMDQMV" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Content</td>
+			<td port="dhLnvw" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Level</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd3yI76" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">FirstChar</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddVPBsX" bgcolor="#ffe599ff" rowspan="1" colspan="1">line</td>
+			<td port="dbzMbqu" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Line</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbscxoz" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Continue</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcbWkbb" bgcolor="#ffe599ff" rowspan="1" colspan="1">Paragraph</td>
+			<td port="du5p0U" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">BaseBlock</td>
+			<td port="dbcDZ2L" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Content</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd0u5EF" bgcolor="#ffe599ff" rowspan="1" colspan="1">Root</td>
+			<td port="dbiRprO" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">BaseBlock</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="8">entity</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "document/entity"
+
+	
+		subgraph cluster_ddXYotF {
+	
+		
+    	ddXYotF [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddG1TTb" bgcolor="#f4ccccff" rowspan="1" colspan="1">StepFunc</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dehYNaU" bgcolor="#f4ccccff" rowspan="1" colspan="1">StepIn</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcCywpP" bgcolor="#f4ccccff" rowspan="1" colspan="1">StepOut</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="8">general</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "document/entity/general"
+
+	
+    }
+		subgraph cluster_deoEVWF {
+	
+		
+    	deoEVWF [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbKkRJl" bgcolor="#ead1dcff" rowspan="1" colspan="1">NewHead</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbRiMXl" bgcolor="#ead1dcff" rowspan="1" colspan="1">NewLine</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddAIHQN" bgcolor="#ead1dcff" rowspan="1" colspan="1">NewParagraph</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="djzbSF" bgcolor="#ead1dcff" rowspan="1" colspan="2">isBlank</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbtww2R" bgcolor="#ead1dcff" rowspan="1" colspan="2">NewRoot</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="8">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "document/entity/function"
+
+	
+    }
+    }
+    }
+		subgraph cluster_dbPoIoJ {
+	
+		
+    	dbPoIoJ [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddd6MPW" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Scan</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dF3VHy" bgcolor="#ffd966ff" rowspan="1" colspan="1">Reader</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">reader</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/dddplayer/markdown/internal/domain/reader"
+
+	
+		subgraph cluster_dPHscO {
+	
+		
+    	dPHscO [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deialar" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">String</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dceJsQV" bgcolor="#ffe599ff" rowspan="1" colspan="1">Line</td>
+			<td port="ddJT38S" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Index</td>
+			<td port="dbYbIUf" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Content</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="d2wHdo" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Scan</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbxmmye" bgcolor="#ffe599ff" rowspan="1" colspan="1">LineReader</td>
+			<td port="dbwhcrN" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">F</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="7">entity</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "reader/entity"
+
+	
+		subgraph cluster_dUfT0J {
+	
+		
+    	dUfT0J [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddOoLeE" bgcolor="#f4ccccff" rowspan="1" colspan="4">ScanFunc</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">general</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "reader/entity/general"
+
+	
+    }
+		subgraph cluster_dcj5Ec5 {
+	
+		
+    	dcj5Ec5 [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbPRgAt" bgcolor="#ead1dcff" rowspan="1" colspan="4">NewLine</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "reader/entity/function"
+
+	
+    }
+    }
+    }
+
+	
+		dcXRFqY -> deDS3Ut:dels9Bm  [style=dotted arrowhead=diamond label="1" tooltip="markdown -> Parser: \n\n"]
+		dePZUtZ -> ddCUVMU  [style=dotted arrowhead=normal label="1" tooltip="valueobject -> general: \n\n"]
+		dcX1QEI -> deoEVWF  [style=dotted arrowhead=normal label="1" tooltip="entity -> function: \n\n"]
+		dPHscO -> dcj5Ec5  [style=dotted arrowhead=normal label="1" tooltip="entity -> function: \n\n"]
+		dcXRFqY -> dbPoIoJ:dF3VHy  [style=dotted arrowhead=diamond label="1" tooltip="markdown -> Reader: \n\n"]
+		dePZUtZ -> dcrE5Og  [style=dotted arrowhead=normal label="1" tooltip="valueobject -> function: \n\n"]
+		dcXRFqY -> dbWrsun:ddmmAHi  [style=dotted arrowhead=diamond label="1" tooltip="markdown -> Document: \n\n"]
+		dcZ3jeV -> dQjFPA  [style=dotted arrowhead=normal label="1" tooltip="valueobject -> general: \n\n"]
+		ddDgycm -> ddn3Ohp  [style=dotted arrowhead=normal label="1" tooltip="entity -> function: \n\n"]
+		dcX1QEI -> ddXYotF  [style=dotted arrowhead=normal label="1" tooltip="entity -> general: \n\n"]
+		deDS3Ut:dels9Bm -> dcZ3jeV  [style=dotted arrowhead=diamond label="1" tooltip="Parser -> valueobject: \n\n"]
+		deDS3Ut:dels9Bm -> ddDgycm  [style=dotted arrowhead=diamond label="1" tooltip="Parser -> entity: \n\n"]
+		dbWrsun:ddmmAHi -> dePZUtZ  [style=dotted arrowhead=diamond label="1" tooltip="Document -> valueobject: \n\n"]
+		dbWrsun:ddmmAHi -> dcX1QEI  [style=dotted arrowhead=diamond label="1" tooltip="Document -> entity: \n\n"]
+		dPHscO -> dUfT0J  [style=dotted arrowhead=normal label="1" tooltip="entity -> general: \n\n"]
+		dbPoIoJ:dF3VHy -> dPHscO  [style=dotted arrowhead=diamond label="1" tooltip="Reader -> entity: \n\n"]
+
+	label = "\n\ngithub.com/dddplayer/markdown\nDomain Model\n\nPowered by DDD Player";
+    fontsize=20;
+}
