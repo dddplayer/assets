@@ -1,0 +1,465 @@
+digraph {
+	node [style=dotted shape=rect]
+
+    subgraph cluster_ddd_concept{
+		node [color=white]
+
+        ddd_concept [label=<
+        <table border="0" cellpadding="10">
+		<tr>
+			<td bgcolor="#ffffff00" rowspan="1" colspan="1">BoundedContext</td>
+			<td bgcolor="#ffd966ff" rowspan="1" colspan="1">AggregateRoot</td>
+			<td bgcolor="#ffe599ff" rowspan="1" colspan="1">Entity</td>
+			<td bgcolor="#a2c4c9ff" rowspan="1" colspan="1">ValueObject</td>
+			<td bgcolor="#e69138ff" rowspan="1" colspan="1">Service</td>
+		</tr>
+		<tr>
+			<td bgcolor="white" rowspan="1" colspan="1"></td>
+			<td bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Command</td>
+			<td bgcolor="#f6b26bff" rowspan="1" colspan="1">Event</td>
+			<td bgcolor="#cfe2f3ff" rowspan="1" colspan="1">Factory</td>
+			<td bgcolor="#b4a7d6ff" rowspan="1" colspan="1">Class</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor="white" rowspan="1" colspan="1"></td>
+			<td bgcolor="#f4ccccff" rowspan="1" colspan="1">General</td>
+			<td bgcolor="#ead1dcff" rowspan="1" colspan="1">Function</td>
+			<td bgcolor="#9fc5e8ff" rowspan="1" colspan="1">Interface</td>
+			<td bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Attribute</td>
+		</tr>
+        </table>
+        > ]
+	}
+
+    
+		subgraph cluster_dPzhN7 {
+	
+		
+    	dPzhN7 [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd0tBCQ" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">getHTMLElements</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dywZf7" bgcolor="#b4a7d6ff" rowspan="2" colspan="1">htmlElementsCollector</td>
+			<td port="ddxF93g" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">conf</td>
+			<td port="dmaELO" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">elementSet</td>
+			<td port="dcncFal" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">elements</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dc3bnAu" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">mu</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dOYTmJ" bgcolor="#b4a7d6ff" rowspan="3" colspan="1">Descriptor</td>
+			<td port="dhsUl0" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Src</td>
+			<td port="dbQpQBW" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">OutputFormat</td>
+			<td port="ddA7DoI" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">TargetPath</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbBBdT4" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">StatCounter</td>
+			<td port="deqKnux" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">LiveReloadBaseURL</td>
+			<td port="ddTFXUD" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">AddHugoGeneratorTag</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddu3Jqw" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">AbsURLPath</td>
+			<td port="dcZI3dW" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Minify</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dnMcQP" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">backup</td>
+			<td port="ddIkhqE" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Write</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddNjrF0" bgcolor="#b4a7d6ff" rowspan="4" colspan="1">htmlElementsCollectorWriter</td>
+			<td port="dbEMdYA" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">collector</td>
+			<td port="ddz4W4p" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">r</td>
+			<td port="dedvszR" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">width</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="d0ISYT" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">consumeRuneUntil</td>
+			<td port="ddFQk8s" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">consumeBuffUntil</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dckfvov" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">input</td>
+			<td port="dbsPxFr" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">pos</td>
+			<td port="dbLbf7e" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">err</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dc8Cd5S" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">next</td>
+			<td port="deP9XNY" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">lexElementInside</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcyFsAS" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">inQuote</td>
+			<td port="dZ9wHS" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">buff</td>
+			<td port="d1Hy96" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">state</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="djpx9p" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">parseHTMLElement</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcPybyx" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">defaultLexElementInside</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddt7mNP" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">createTransformerChain</td>
+			<td port="dbO1DR7" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">PublishStats</td>
+			<td port="dd7D34U" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Publish</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbvtgwQ" bgcolor="#b4a7d6ff" rowspan="1" colspan="1">DestinationPublisher</td>
+			<td port="dcJF17U" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">fs</td>
+			<td port="dbxix6D" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">min</td>
+			<td port="dboQJkc" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">htmlElementsCollector</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dlT571" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Sort</td>
+			<td port="dcFieAv" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Merge</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dch5k6I" bgcolor="#b4a7d6ff" rowspan="1" colspan="1">HTMLElements</td>
+			<td port="dbmwQcs" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Tags</td>
+			<td port="ddPMJOT" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Classes</td>
+			<td port="deKDCDP" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">IDs</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbt147N" bgcolor="#b4a7d6ff" rowspan="1" colspan="1">htmlElement</td>
+			<td port="dbcMIqs" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Tag</td>
+			<td port="dcuAqeA" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Classes</td>
+			<td port="dbe44A4" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">IDs</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddcZzMW" bgcolor="#b4a7d6ff" rowspan="1" colspan="1">PublishStats</td>
+			<td port="dbKPSED" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">HTMLElements</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbAgdNp" bgcolor="#ead1dcff" rowspan="1" colspan="1">PublishStats</td>
+			<td port="dbNffHS" bgcolor="#ead1dcff" rowspan="1" colspan="1">Publish</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dQsS6" bgcolor="#9fc5e8ff" rowspan="1" colspan="1">Publisher</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="10">publisher</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/publisher"
+
+	
+		subgraph cluster_deuXkcg {
+	
+		
+    	deuXkcg [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddySgVB" bgcolor="#f4ccccff" rowspan="1" colspan="4">htmlCollectorStateFunc</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">general</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/publisher/general"
+
+	
+    }
+		subgraph cluster_dcI3DAw {
+	
+		
+    	dcI3DAw [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddI59dj" bgcolor="#ead1dcff" rowspan="1" colspan="1">newHTMLElementsCollector</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd6LYDk" bgcolor="#ead1dcff" rowspan="1" colspan="1">htmlLexStart</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="drUdl3" bgcolor="#ead1dcff" rowspan="1" colspan="1">parseStartTag</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbEH5ST" bgcolor="#ead1dcff" rowspan="1" colspan="1">isClosedByTag</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddJ3qNE" bgcolor="#ead1dcff" rowspan="1" colspan="1">isSpace</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbyyvJo" bgcolor="#ead1dcff" rowspan="1" colspan="1">NewDestinationPublisher</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddOeeay" bgcolor="#ead1dcff" rowspan="1" colspan="1">htmlLexElementStart</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddEbmRj" bgcolor="#ead1dcff" rowspan="1" colspan="1">extractSingleQuotedStrings</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dctuUCS" bgcolor="#ead1dcff" rowspan="1" colspan="1">htmlLexToEndOfComment</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dc8ED92" bgcolor="#ead1dcff" rowspan="1" colspan="6">newHTMLElementsCollectorWriter</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="8">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/publisher/function"
+
+	
+    }
+    }
+		subgraph cluster_deuXkcg {
+	
+		
+    	deuXkcg [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddySgVB" bgcolor="#f4ccccff" rowspan="1" colspan="4">htmlCollectorStateFunc</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">general</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/publisher/general"
+
+	
+    }
+		subgraph cluster_dcI3DAw {
+	
+		
+    	dcI3DAw [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddI59dj" bgcolor="#ead1dcff" rowspan="1" colspan="1">newHTMLElementsCollector</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd6LYDk" bgcolor="#ead1dcff" rowspan="1" colspan="1">htmlLexStart</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="drUdl3" bgcolor="#ead1dcff" rowspan="1" colspan="1">parseStartTag</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbEH5ST" bgcolor="#ead1dcff" rowspan="1" colspan="1">isClosedByTag</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddJ3qNE" bgcolor="#ead1dcff" rowspan="1" colspan="1">isSpace</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbyyvJo" bgcolor="#ead1dcff" rowspan="1" colspan="1">NewDestinationPublisher</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddOeeay" bgcolor="#ead1dcff" rowspan="1" colspan="1">htmlLexElementStart</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddEbmRj" bgcolor="#ead1dcff" rowspan="1" colspan="1">extractSingleQuotedStrings</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dctuUCS" bgcolor="#ead1dcff" rowspan="1" colspan="1">htmlLexToEndOfComment</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dc8ED92" bgcolor="#ead1dcff" rowspan="1" colspan="6">newHTMLElementsCollectorWriter</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="8">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/publisher/function"
+
+	
+    }
+
+	
+		dPzhN7 -> deuXkcg  [style=dotted arrowhead=normal label="1" tooltip="publisher -> general: \n\n"]
+		dPzhN7 -> dcI3DAw  [style=dotted arrowhead=normal label="1" tooltip="publisher -> function: \n\n"]
+
+	label = "\n\ngithub.com/gohugoio/hugo/publisher\nDomain Model\n\nPowered by DDD Player";
+    fontsize=20;
+}

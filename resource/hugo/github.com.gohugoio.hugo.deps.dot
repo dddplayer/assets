@@ -1,0 +1,299 @@
+digraph {
+	node [style=dotted shape=rect]
+
+    subgraph cluster_ddd_concept{
+		node [color=white]
+
+        ddd_concept [label=<
+        <table border="0" cellpadding="10">
+		<tr>
+			<td bgcolor="#ffffff00" rowspan="1" colspan="1">BoundedContext</td>
+			<td bgcolor="#ffd966ff" rowspan="1" colspan="1">AggregateRoot</td>
+			<td bgcolor="#ffe599ff" rowspan="1" colspan="1">Entity</td>
+			<td bgcolor="#a2c4c9ff" rowspan="1" colspan="1">ValueObject</td>
+			<td bgcolor="#e69138ff" rowspan="1" colspan="1">Service</td>
+		</tr>
+		<tr>
+			<td bgcolor="white" rowspan="1" colspan="1"></td>
+			<td bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Command</td>
+			<td bgcolor="#f6b26bff" rowspan="1" colspan="1">Event</td>
+			<td bgcolor="#cfe2f3ff" rowspan="1" colspan="1">Factory</td>
+			<td bgcolor="#b4a7d6ff" rowspan="1" colspan="1">Class</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor="white" rowspan="1" colspan="1"></td>
+			<td bgcolor="#f4ccccff" rowspan="1" colspan="1">General</td>
+			<td bgcolor="#ead1dcff" rowspan="1" colspan="1">Function</td>
+			<td bgcolor="#9fc5e8ff" rowspan="1" colspan="1">Interface</td>
+			<td bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Attribute</td>
+		</tr>
+        </table>
+        > ]
+	}
+
+    
+		subgraph cluster_ddK2vLR {
+	
+		
+    	ddK2vLR [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbfAoIj" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Notify</td>
+			<td port="dyD0KF" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Add</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddg5xQt" bgcolor="#b4a7d6ff" rowspan="1" colspan="1">Listeners</td>
+			<td port="dcALj4t" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Mutex</td>
+			<td port="dej3hib" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">listeners</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcc7qMY" bgcolor="#b4a7d6ff" rowspan="3" colspan="1">DepsCfg</td>
+			<td port="db5d5v1" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">TestLogger</td>
+			<td port="dJpw0R" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">LogLevel</td>
+			<td port="dcf8IsH" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">LogOut</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dce7zPQ" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Fs</td>
+			<td port="dt4nbg" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Site</td>
+			<td port="ddsOwGE" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Configs</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dzLLQq" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">TemplateProvider</td>
+			<td port="ddJsQsB" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">TranslationProvider</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dde0smg" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Close</td>
+			<td port="deh32rJ" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Add</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db185jV" bgcolor="#b4a7d6ff" rowspan="1" colspan="1">Closers</td>
+			<td port="dcazYZw" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">mu</td>
+			<td port="dcqvc68" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">cs</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="depMq3E" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">StopErrorCollector</td>
+			<td port="debsu7S" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">StartErrorCollector</td>
+			<td port="dcjBYdj" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">SendError</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbyIXwu" bgcolor="#b4a7d6ff" rowspan="1" colspan="1">globalErrHandler</td>
+			<td port="detfRgP" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">logger</td>
+			<td port="doz2m0" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">buildErrors</td>
+			<td port="dbPwQ4s" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">quit</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dD9MUw" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Clone</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deaWigC" bgcolor="#b4a7d6ff" rowspan="7" colspan="1">Deps</td>
+			<td port="dcM9snt" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Log</td>
+			<td port="desgVpU" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ExecHelper</td>
+			<td port="dbZ5R6N" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">tmplHandlers</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddxlmsp" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">SetTempl</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcWxQ1q" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Fs</td>
+			<td port="dcWFQ8b" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">PathSpec</td>
+			<td port="ddJ8QhZ" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ContentSpec</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcLILaN" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Init</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddLumOl" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">SourceSpec</td>
+			<td port="dcjHxQg" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ResourceSpec</td>
+			<td port="dcyQL2x" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Conf</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbCmv0A" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Compile</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db95E7t" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Translate</td>
+			<td port="dbl3fRa" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Site</td>
+			<td port="dbpUBcQ" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">TemplateProvider</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dRdVw2" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Tmpl</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dYTecB" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">OverloadedTemplateFuncs</td>
+			<td port="d4qI1Z" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">TranslationProvider</td>
+			<td port="dbw6Tq" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Metrics</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbdcrPl" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">TextTmpl</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dMlo4Q" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">BuildStartListeners</td>
+			<td port="dbDo5VJ" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">BuildEndListeners</td>
+			<td port="deEonq6" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">BuildClosers</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deFItuN" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Close</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcCvgZc" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">BuildState</td>
+			<td port="dczxFa7" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">globalErrHandler</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dTC4Qk" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Incr</td>
+			<td port="ddKB5AC" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">GetFilenamesWithPostPrefix</td>
+			<td port="ddDrfjc" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">AddFilenameWithPostPrefix</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd5plfX" bgcolor="#b4a7d6ff" rowspan="1" colspan="1">BuildState</td>
+			<td port="dAWamy" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">counter</td>
+			<td port="dcHXMpa" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">mu</td>
+			<td port="dcsi4zs" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">filenamesWithPostPrefix</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="doq7V1" bgcolor="#ead1dcff" rowspan="1" colspan="1">Close</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbY7eku" bgcolor="#9fc5e8ff" rowspan="1" colspan="1">Closer</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbxhR2r" bgcolor="#ead1dcff" rowspan="1" colspan="1">CloneResource</td>
+			<td port="dc6FnzG" bgcolor="#ead1dcff" rowspan="1" colspan="1">NewResource</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbjtryh" bgcolor="#9fc5e8ff" rowspan="1" colspan="1">ResourceProvider</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="10">deps</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/deps"
+
+	
+    }
+
+	
+
+	label = "\n\ngithub.com/gohugoio/hugo/deps\nDomain Model\n\nPowered by DDD Player";
+    fontsize=20;
+}

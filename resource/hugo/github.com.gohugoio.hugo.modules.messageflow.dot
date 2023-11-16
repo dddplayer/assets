@@ -1,0 +1,1490 @@
+digraph {
+	node [style=dotted shape=rect]
+
+    subgraph cluster_ddd_concept{
+		node [color=white]
+
+        ddd_concept [label=<
+        <table border="0" cellpadding="10">
+		<tr>
+			<td bgcolor="#ffffff00" rowspan="1" colspan="1">BoundedContext</td>
+			<td bgcolor="#ffd966ff" rowspan="1" colspan="1">AggregateRoot</td>
+			<td bgcolor="#ffe599ff" rowspan="1" colspan="1">Entity</td>
+			<td bgcolor="#a2c4c9ff" rowspan="1" colspan="1">ValueObject</td>
+			<td bgcolor="#e69138ff" rowspan="1" colspan="1">Service</td>
+		</tr>
+		<tr>
+			<td bgcolor="white" rowspan="1" colspan="1"></td>
+			<td bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Command</td>
+			<td bgcolor="#f6b26bff" rowspan="1" colspan="1">Event</td>
+			<td bgcolor="#cfe2f3ff" rowspan="1" colspan="1">Factory</td>
+			<td bgcolor="#b4a7d6ff" rowspan="1" colspan="1">Class</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor="white" rowspan="1" colspan="1"></td>
+			<td bgcolor="#f4ccccff" rowspan="1" colspan="1">General</td>
+			<td bgcolor="#ead1dcff" rowspan="1" colspan="1">Function</td>
+			<td bgcolor="#9fc5e8ff" rowspan="1" colspan="1">Interface</td>
+			<td bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Attribute</td>
+		</tr>
+        </table>
+        > ]
+	}
+
+    
+		subgraph cluster_dc9XMve {
+	
+		
+    	dc9XMve [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">hugo</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo"
+
+	
+		subgraph cluster_dcJV72N {
+	
+		
+    	dcJV72N [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dznWI" bgcolor="#ead1dcff" rowspan="1" colspan="4">main</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/function"
+
+	
+    }
+		subgraph cluster_dcvxWhE {
+	
+		
+    	dcvxWhE [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dHHKxx" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Vendor</td>
+			<td port="ddzCDgZ" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Tidy</td>
+			<td port="dcxpf89" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Graph</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcDPEe2" bgcolor="#b4a7d6ff" rowspan="7" colspan="1">Client</td>
+			<td port="ddtEDSi" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">fs</td>
+			<td port="dEgg9n" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">logger</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db6zBij" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Init</td>
+			<td port="dcmaCL" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">get</td>
+			<td port="dc2j5Y1" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Get</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddCFoPW" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">noVendor</td>
+			<td port="dicHfu" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ccfg</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dSEOLZ" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">runVerify</td>
+			<td port="dxje9k" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Clean</td>
+			<td port="dd9rT2E" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Verify</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dUfZtF" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">moduleConfig</td>
+			<td port="d6pXq8" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">environ</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcCZZnP" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">rewriteGoModRewrite</td>
+			<td port="ddTsTsH" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">rewriteGoMod</td>
+			<td port="d6j3vA" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">listGoMods</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deFfypj" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">GoModulesFilename</td>
+			<td port="dbL7UlG" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">goBinaryStatus</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbhiDTH" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">tidy</td>
+			<td port="def1Chy" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">runGo</td>
+			<td port="dbrd7at" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">rmVendorDir</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbnl7D1" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Collect</td>
+			<td port="dbkmdhQ" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">createThemeDirname</td>
+			<td port="d3Ed3i" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">shouldVendor</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcgBxsF" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">collect</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="10">modules</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/modules"
+
+	
+		subgraph cluster_dcq8Tjx {
+	
+		
+    	dcq8Tjx [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbFpNdC" bgcolor="#ead1dcff" rowspan="1" colspan="2">NewClient</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddBW1FY" bgcolor="#ead1dcff" rowspan="1" colspan="2">ApplyProjectConfigDefaults</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="7">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/modules/function"
+
+	
+    }
+		subgraph cluster_ddqkX6k {
+	
+		
+    	ddqkX6k [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">npm</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/modules/npm"
+
+	
+		subgraph cluster_dbPxpbD {
+	
+		
+    	dbPxpbD [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db5PG3W" bgcolor="#ead1dcff" rowspan="1" colspan="4">Pack</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/modules/npm/function"
+
+	
+    }
+    }
+    }
+		subgraph cluster_dbXdTVV {
+	
+		
+    	dbXdTVV [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbrPMlQ" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Build</td>
+			<td port="dbL2dEk" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">isVerbose</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcR5mMN" bgcolor="#b4a7d6ff" rowspan="9" colspan="1">rootCommand</td>
+			<td port="ddkxvnn" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Printf</td>
+			<td port="dddbuE9" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Println</td>
+			<td port="dd1giKW" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Out</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="droqvk" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">ConfigFromConfig</td>
+			<td port="dcnOnmo" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Commands</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbKtzOK" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">logger</td>
+			<td port="dblrw6h" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">configVersionID</td>
+			<td port="dc3hRYm" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">commonConfigs</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd10GMU" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">HugFromConfig</td>
+			<td port="dcRwe9n" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">ConfigFromProvider</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcdLcFr" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">hugoSites</td>
+			<td port="dcxXeR4" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">commands</td>
+			<td port="dd94MNh" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">source</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddjsnBb" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Name</td>
+			<td port="ddzdLu1" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Hugo</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dclrxD9" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">buildWatch</td>
+			<td port="dbP1pd3" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">environment</td>
+			<td port="dbhGXcs" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">baseURL</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbmqisM" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">PreRun</td>
+			<td port="dcHW1vh" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Run</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dYSzxy" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">gc</td>
+			<td port="ddZ881Z" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">poll</td>
+			<td port="deeXFhq" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">forceSyncStatic</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddr7T8V" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Reset</td>
+			<td port="dgy9g8" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">createLogger</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dD7eHT" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">cpuprofile</td>
+			<td port="db0Z5B4" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">memprofile</td>
+			<td port="ddUL7ng" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">mutexprofile</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddXfxfm" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Init</td>
+			<td port="ddxHG8T" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">IsTestRun</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcGJcAc" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">traceprofile</td>
+			<td port="dcFU1iw" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">printm</td>
+			<td port="dbiHNBg" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">logLevel</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddcEsoG" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">timeTrack</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dehbl7u" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">verbose</td>
+			<td port="d7teSZ" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">debug</td>
+			<td port="dQUWcq" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">quiet</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deJLKGE" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">renderToMemory</td>
+			<td port="deD3Zb6" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">cfgFile</td>
+			<td port="dbuU8fl" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">cfgDir</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="10">commands</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/commands"
+
+	
+		subgraph cluster_dMqvaM {
+	
+		
+    	dMqvaM [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="d7NVNV" bgcolor="#ead1dcff" rowspan="1" colspan="1">Execute</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddLD5U6" bgcolor="#ead1dcff" rowspan="1" colspan="1">newModCommands</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddXW9nw" bgcolor="#ead1dcff" rowspan="1" colspan="1">newDeployCommand</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcsSuRp" bgcolor="#ead1dcff" rowspan="1" colspan="1">newExec</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db3HgXZ" bgcolor="#ead1dcff" rowspan="1" colspan="1">newListCommand</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db503Tz" bgcolor="#ead1dcff" rowspan="1" colspan="1">newGenCommand</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddoJpUx" bgcolor="#ead1dcff" rowspan="1" colspan="6">newNewCommand</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="8">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/commands/function"
+
+	
+    }
+    }
+		subgraph cluster_dcTX6L3 {
+	
+		
+    	dcTX6L3 [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">hugolib</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/hugolib"
+
+	
+		subgraph cluster_dbHCVgA {
+	
+		
+    	dbHCVgA [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbkmqSX" bgcolor="#ead1dcff" rowspan="1" colspan="4">DefaultConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/hugolib/function"
+
+	
+    }
+    }
+		subgraph cluster_dc4bCKn {
+	
+		
+    	dc4bCKn [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">config</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/config"
+
+	
+		subgraph cluster_dbplwOx {
+	
+		
+    	dbplwOx [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcTBgQo" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">IsZero</td>
+			<td port="deEFfKn" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">transientErr</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd5KNYx" bgcolor="#b4a7d6ff" rowspan="4" colspan="1">Configs</td>
+			<td port="deEpyFB" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Base</td>
+			<td port="ddOmE3w" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">LoadingInfo</td>
+			<td port="deFJYpO" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">LanguageConfigMap</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dQZl5b" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">ConfigLangs</td>
+			<td port="dJT5Bm" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Init</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddbPmna" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">LanguageConfigSlice</td>
+			<td port="dbysi5j" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">IsMultihost</td>
+			<td port="dcaDodX" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Languages</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dYAJoX" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">GetByLang</td>
+			<td port="dcNtCPy" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">GetFirstLanguageConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddKzRpC" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">LanguagesDefaultFirst</td>
+			<td port="doXGUf" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Modules</td>
+			<td port="deqQBbW" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ModulesClient</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deBWQhz" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">configLangs</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbyJYD" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">normalizeCfg</td>
+			<td port="dbtTWRB" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">applyDefaultConfig</td>
+			<td port="dhDFdo" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">applyConfigAliases</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deDzCh3" bgcolor="#b4a7d6ff" rowspan="5" colspan="1">configLoader</td>
+			<td port="dcJ6bHE" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">cfg</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dHDOrQ" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">applyOsEnvOverrides</td>
+			<td port="dde2Vfa" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">applyFlagsOverrides</td>
+			<td port="dnXfks" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">cleanExternalConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbXBepR" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">BaseConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbCGa79" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">loadModules</td>
+			<td port="dbmw4Y9" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">loadConfigMain</td>
+			<td port="dcfUAwS" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">envStringToVal</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="denRFPA" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ConfigSourceDescriptor</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcC5j45" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">loadModulesConfig</td>
+			<td port="dbOGN6c" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">deleteMergeStrategies</td>
+			<td port="deDchHc" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">loadConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddLNePh" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ModulesConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddhsMuo" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">wrapFileError</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd1kYmi" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ModulesConfigFiles</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="10">allconfig</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/config/allconfig"
+
+	
+		subgraph cluster_ddrK512 {
+	
+		
+    	ddrK512 [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcDUU8Y" bgcolor="#ead1dcff" rowspan="1" colspan="4">LoadConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/config/allconfig/function"
+
+	
+    }
+    }
+    }
+    }
+		subgraph cluster_dcJV72N {
+	
+		
+    	dcJV72N [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dznWI" bgcolor="#ead1dcff" rowspan="1" colspan="4">main</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/function"
+
+	
+    }
+		subgraph cluster_dcvxWhE {
+	
+		
+    	dcvxWhE [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dHHKxx" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Vendor</td>
+			<td port="ddzCDgZ" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Tidy</td>
+			<td port="dcxpf89" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Graph</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcDPEe2" bgcolor="#b4a7d6ff" rowspan="7" colspan="1">Client</td>
+			<td port="ddtEDSi" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">fs</td>
+			<td port="dEgg9n" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">logger</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db6zBij" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Init</td>
+			<td port="dcmaCL" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">get</td>
+			<td port="dc2j5Y1" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Get</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddCFoPW" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">noVendor</td>
+			<td port="dicHfu" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ccfg</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dSEOLZ" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">runVerify</td>
+			<td port="dxje9k" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Clean</td>
+			<td port="dd9rT2E" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Verify</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dUfZtF" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">moduleConfig</td>
+			<td port="d6pXq8" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">environ</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcCZZnP" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">rewriteGoModRewrite</td>
+			<td port="ddTsTsH" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">rewriteGoMod</td>
+			<td port="d6j3vA" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">listGoMods</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deFfypj" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">GoModulesFilename</td>
+			<td port="dbL7UlG" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">goBinaryStatus</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbhiDTH" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">tidy</td>
+			<td port="def1Chy" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">runGo</td>
+			<td port="dbrd7at" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">rmVendorDir</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbnl7D1" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Collect</td>
+			<td port="dbkmdhQ" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">createThemeDirname</td>
+			<td port="d3Ed3i" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">shouldVendor</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcgBxsF" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">collect</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="10">modules</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/modules"
+
+	
+		subgraph cluster_dcq8Tjx {
+	
+		
+    	dcq8Tjx [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbFpNdC" bgcolor="#ead1dcff" rowspan="1" colspan="2">NewClient</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddBW1FY" bgcolor="#ead1dcff" rowspan="1" colspan="2">ApplyProjectConfigDefaults</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="7">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/modules/function"
+
+	
+    }
+		subgraph cluster_ddqkX6k {
+	
+		
+    	ddqkX6k [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">npm</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/modules/npm"
+
+	
+		subgraph cluster_dbPxpbD {
+	
+		
+    	dbPxpbD [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db5PG3W" bgcolor="#ead1dcff" rowspan="1" colspan="4">Pack</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/modules/npm/function"
+
+	
+    }
+    }
+    }
+		subgraph cluster_dbXdTVV {
+	
+		
+    	dbXdTVV [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbrPMlQ" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Build</td>
+			<td port="dbL2dEk" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">isVerbose</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcR5mMN" bgcolor="#b4a7d6ff" rowspan="9" colspan="1">rootCommand</td>
+			<td port="ddkxvnn" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Printf</td>
+			<td port="dddbuE9" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Println</td>
+			<td port="dd1giKW" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Out</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="droqvk" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">ConfigFromConfig</td>
+			<td port="dcnOnmo" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Commands</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbKtzOK" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">logger</td>
+			<td port="dblrw6h" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">configVersionID</td>
+			<td port="dc3hRYm" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">commonConfigs</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd10GMU" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">HugFromConfig</td>
+			<td port="dcRwe9n" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">ConfigFromProvider</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcdLcFr" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">hugoSites</td>
+			<td port="dcxXeR4" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">commands</td>
+			<td port="dd94MNh" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">source</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddjsnBb" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Name</td>
+			<td port="ddzdLu1" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Hugo</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dclrxD9" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">buildWatch</td>
+			<td port="dbP1pd3" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">environment</td>
+			<td port="dbhGXcs" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">baseURL</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbmqisM" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">PreRun</td>
+			<td port="dcHW1vh" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Run</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dYSzxy" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">gc</td>
+			<td port="ddZ881Z" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">poll</td>
+			<td port="deeXFhq" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">forceSyncStatic</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddr7T8V" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Reset</td>
+			<td port="dgy9g8" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">createLogger</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dD7eHT" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">cpuprofile</td>
+			<td port="db0Z5B4" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">memprofile</td>
+			<td port="ddUL7ng" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">mutexprofile</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddXfxfm" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Init</td>
+			<td port="ddxHG8T" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">IsTestRun</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcGJcAc" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">traceprofile</td>
+			<td port="dcFU1iw" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">printm</td>
+			<td port="dbiHNBg" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">logLevel</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddcEsoG" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">timeTrack</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dehbl7u" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">verbose</td>
+			<td port="d7teSZ" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">debug</td>
+			<td port="dQUWcq" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">quiet</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deJLKGE" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">renderToMemory</td>
+			<td port="deD3Zb6" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">cfgFile</td>
+			<td port="dbuU8fl" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">cfgDir</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="10">commands</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/commands"
+
+	
+		subgraph cluster_dMqvaM {
+	
+		
+    	dMqvaM [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="d7NVNV" bgcolor="#ead1dcff" rowspan="1" colspan="1">Execute</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddLD5U6" bgcolor="#ead1dcff" rowspan="1" colspan="1">newModCommands</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddXW9nw" bgcolor="#ead1dcff" rowspan="1" colspan="1">newDeployCommand</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcsSuRp" bgcolor="#ead1dcff" rowspan="1" colspan="1">newExec</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db3HgXZ" bgcolor="#ead1dcff" rowspan="1" colspan="1">newListCommand</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db503Tz" bgcolor="#ead1dcff" rowspan="1" colspan="1">newGenCommand</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddoJpUx" bgcolor="#ead1dcff" rowspan="1" colspan="6">newNewCommand</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="8">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/commands/function"
+
+	
+    }
+    }
+		subgraph cluster_dcTX6L3 {
+	
+		
+    	dcTX6L3 [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">hugolib</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/hugolib"
+
+	
+		subgraph cluster_dbHCVgA {
+	
+		
+    	dbHCVgA [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbkmqSX" bgcolor="#ead1dcff" rowspan="1" colspan="4">DefaultConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/hugolib/function"
+
+	
+    }
+    }
+		subgraph cluster_dc4bCKn {
+	
+		
+    	dc4bCKn [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">config</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/config"
+
+	
+		subgraph cluster_dbplwOx {
+	
+		
+    	dbplwOx [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcTBgQo" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">IsZero</td>
+			<td port="deEFfKn" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">transientErr</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd5KNYx" bgcolor="#b4a7d6ff" rowspan="4" colspan="1">Configs</td>
+			<td port="deEpyFB" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Base</td>
+			<td port="ddOmE3w" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">LoadingInfo</td>
+			<td port="deFJYpO" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">LanguageConfigMap</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dQZl5b" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">ConfigLangs</td>
+			<td port="dJT5Bm" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Init</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddbPmna" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">LanguageConfigSlice</td>
+			<td port="dbysi5j" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">IsMultihost</td>
+			<td port="dcaDodX" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Languages</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dYAJoX" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">GetByLang</td>
+			<td port="dcNtCPy" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">GetFirstLanguageConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddKzRpC" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">LanguagesDefaultFirst</td>
+			<td port="doXGUf" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Modules</td>
+			<td port="deqQBbW" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ModulesClient</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deBWQhz" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">configLangs</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbyJYD" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">normalizeCfg</td>
+			<td port="dbtTWRB" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">applyDefaultConfig</td>
+			<td port="dhDFdo" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">applyConfigAliases</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deDzCh3" bgcolor="#b4a7d6ff" rowspan="5" colspan="1">configLoader</td>
+			<td port="dcJ6bHE" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">cfg</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dHDOrQ" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">applyOsEnvOverrides</td>
+			<td port="dde2Vfa" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">applyFlagsOverrides</td>
+			<td port="dnXfks" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">cleanExternalConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbXBepR" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">BaseConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbCGa79" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">loadModules</td>
+			<td port="dbmw4Y9" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">loadConfigMain</td>
+			<td port="dcfUAwS" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">envStringToVal</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="denRFPA" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ConfigSourceDescriptor</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcC5j45" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">loadModulesConfig</td>
+			<td port="dbOGN6c" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">deleteMergeStrategies</td>
+			<td port="deDchHc" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">loadConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddLNePh" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ModulesConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddhsMuo" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">wrapFileError</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd1kYmi" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ModulesConfigFiles</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="10">allconfig</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/config/allconfig"
+
+	
+		subgraph cluster_ddrK512 {
+	
+		
+    	ddrK512 [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcDUU8Y" bgcolor="#ead1dcff" rowspan="1" colspan="4">LoadConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="6">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/config/allconfig/function"
+
+	
+    }
+    }
+    }
+
+	
+		dMqvaM:dcsSuRp -> dMqvaM:db3HgXZ  [style=solid arrowhead=normal label="3" tooltip="newExec -> newListCommand: \n\nFrom: commands.go (Line: 32, Column: 18) To: list.go (Line: 33, Column: 6)\n"]
+		dcvxWhE -> ddqkX6k  [style=dotted arrowhead=diamond label="1" tooltip="modules -> npm: \n\n"]
+		dc9XMve -> dcvxWhE  [style=dotted arrowhead=diamond label="1" tooltip="hugo -> modules: \n\n"]
+		dcJV72N:dznWI -> dMqvaM:d7NVNV  [style=solid arrowhead=normal label="54" tooltip="main -> Execute: \n\nFrom: main.go (Line: 25, Column: 25) To: commandeer.go (Line: 57, Column: 6)\n"]
+		dMqvaM:ddXW9nw -> dbXdTVV:ddzdLu1  [style=solid arrowhead=normal label="3" tooltip="newDeployCommand -> rootCommand.Hugo: \n\nFrom: deploy.go (Line: 51, Column: 20) To: commandeer.go (Line: 313, Column: 23)\n"]
+		dMqvaM:dcsSuRp -> dMqvaM:ddoJpUx  [style=solid arrowhead=normal label="9" tooltip="newExec -> newNewCommand: \n\nFrom: commands.go (Line: 29, Column: 17) To: new.go (Line: 30, Column: 6)\n"]
+		dbXdTVV:dbrPMlQ -> dbXdTVV:ddzdLu1  [style=solid arrowhead=normal label="3" tooltip="rootCommand.Build -> rootCommand.Hugo: \n\nFrom: commandeer.go (Line: 141, Column: 18) To: commandeer.go (Line: 313, Column: 23)\n"]
+		dMqvaM:ddLD5U6 -> dcvxWhE:ddzCDgZ  [style=solid arrowhead=normal label="1" tooltip="newModCommands -> Client.Tidy: \n\nFrom: mod.go (Line: 177, Column: 41) To: client.go (Line: 172, Column: 18)\n"]
+		dMqvaM:ddLD5U6 -> dbXdTVV:dcRwe9n  [style=solid arrowhead=normal label="12" tooltip="newModCommands -> rootCommand.ConfigFromProvider: \n\nFrom: mod.go (Line: 277, Column: 40) To: commandeer.go (Line: 189, Column: 23)\n"]
+		dMqvaM:ddLD5U6 -> dcvxWhE:dcxpf89  [style=solid arrowhead=normal label="1" tooltip="newModCommands -> Client.Graph: \n\nFrom: mod.go (Line: 139, Column: 25) To: client.go (Line: 146, Column: 18)\n"]
+		dMqvaM:ddLD5U6 -> dbPxpbD:db5PG3W  [style=solid arrowhead=normal label="1" tooltip="newModCommands -> Pack: \n\nFrom: mod.go (Line: 72, Column: 21) To: package_builder.go (Line: 47, Column: 6)\n"]
+		dc9XMve -> dbXdTVV  [style=dotted arrowhead=diamond label="1" tooltip="hugo -> commands: \n\n"]
+		dc9XMve -> dc4bCKn  [style=dotted arrowhead=diamond label="1" tooltip="hugo -> config: \n\n"]
+		dc9XMve -> dcTX6L3  [style=dotted arrowhead=diamond label="1" tooltip="hugo -> hugolib: \n\n"]
+		ddrK512:dcDUU8Y -> dbplwOx:dJT5Bm  [style=solid arrowhead=normal label="15" tooltip="LoadConfig -> Configs.Init: \n\nFrom: load.go (Line: 90, Column: 24) To: allconfig.go (Line: 676, Column: 19)\n"]
+		dbXdTVV:ddzdLu1 -> dbXdTVV:dcRwe9n  [style=solid arrowhead=normal label="24" tooltip="rootCommand.Hugo -> rootCommand.ConfigFromProvider: \n\nFrom: commandeer.go (Line: 315, Column: 36) To: commandeer.go (Line: 189, Column: 23)\n"]
+		dMqvaM:dcsSuRp -> dMqvaM:ddXW9nw  [style=solid arrowhead=normal label="3" tooltip="newExec -> newDeployCommand: \n\nFrom: commands.go (Line: 27, Column: 20) To: deploy.go (Line: 40, Column: 6)\n"]
+		dMqvaM:db3HgXZ -> dbXdTVV:dbrPMlQ  [style=solid arrowhead=normal label="3" tooltip="newListCommand -> rootCommand.Build: \n\nFrom: list.go (Line: 54, Column: 20) To: commandeer.go (Line: 140, Column: 23)\n"]
+		dMqvaM:ddLD5U6 -> dcvxWhE:dd9rT2E  [style=solid arrowhead=normal label="1" tooltip="newModCommands -> Client.Verify: \n\nFrom: mod.go (Line: 120, Column: 26) To: client.go (Line: 406, Column: 18)\n"]
+		dMqvaM:dcsSuRp -> dMqvaM:ddLD5U6  [style=solid arrowhead=normal label="36" tooltip="newExec -> newModCommands: \n\nFrom: commands.go (Line: 33, Column: 18) To: mod.go (Line: 38, Column: 6)\n"]
+		ddqkX6k -> dbPxpbD  [style=dotted arrowhead=normal label="1" tooltip="npm -> function: \n\n"]
+		dMqvaM:ddLD5U6 -> dcvxWhE:dc2j5Y1  [style=solid arrowhead=normal label="2" tooltip="newModCommands -> Client.Get: \n\nFrom: mod.go (Line: 282, Column: 24) To: client.go (Line: 315, Column: 18)\n"]
+		dMqvaM:d7NVNV -> dMqvaM:dcsSuRp  [style=solid arrowhead=normal label="54" tooltip="Execute -> newExec: \n\nFrom: commandeer.go (Line: 60, Column: 19) To: commands.go (Line: 21, Column: 6)\n"]
+		dcTX6L3 -> dbHCVgA  [style=dotted arrowhead=normal label="1" tooltip="hugolib -> function: \n\n"]
+		dMqvaM:ddLD5U6 -> dbXdTVV:ddzdLu1  [style=solid arrowhead=normal label="15" tooltip="newModCommands -> rootCommand.Hugo: \n\nFrom: mod.go (Line: 190, Column: 22) To: commandeer.go (Line: 313, Column: 23)\n"]
+		dbplwOx -> ddrK512  [style=dotted arrowhead=normal label="1" tooltip="allconfig -> function: \n\n"]
+		dbplwOx:dbCGa79 -> dcvxWhE:dbnl7D1  [style=solid arrowhead=normal label="15" tooltip="configLoader.loadModules -> Client.Collect: \n\nFrom: load.go (Line: 502, Column: 44) To: collect.go (Line: 55, Column: 18)\n"]
+		ddrK512:dcDUU8Y -> dbplwOx:dbCGa79  [style=solid arrowhead=normal label="30" tooltip="LoadConfig -> configLoader.loadModules: \n\nFrom: load.go (Line: 67, Column: 51) To: load.go (Line: 457, Column: 24)\n"]
+		dMqvaM:ddLD5U6 -> dcvxWhE:db6zBij  [style=solid arrowhead=normal label="1" tooltip="newModCommands -> Client.Init: \n\nFrom: mod.go (Line: 103, Column: 41) To: client.go (Line: 390, Column: 18)\n"]
+		dbHCVgA:dbkmqSX -> ddrK512:dcDUU8Y  [style=solid arrowhead=normal label="3" tooltip="DefaultConfig -> LoadConfig: \n\nFrom: config.go (Line: 28, Column: 34) To: load.go (Line: 43, Column: 6)\n"]
+		dMqvaM:ddoJpUx -> dbXdTVV:dcRwe9n  [style=solid arrowhead=normal label="6" tooltip="newNewCommand -> rootCommand.ConfigFromProvider: \n\nFrom: new.go (Line: 90, Column: 39) To: commandeer.go (Line: 189, Column: 23)\n"]
+		dMqvaM:ddLD5U6 -> dcvxWhE:dxje9k  [style=solid arrowhead=normal label="1" tooltip="newModCommands -> Client.Clean: \n\nFrom: mod.go (Line: 163, Column: 42) To: client.go (Line: 428, Column: 18)\n"]
+		dMqvaM:dcsSuRp -> dMqvaM:db503Tz  [style=solid arrowhead=normal label="3" tooltip="newExec -> newGenCommand: \n\nFrom: commands.go (Line: 34, Column: 17) To: gen.go (Line: 41, Column: 6)\n"]
+		dc9XMve -> dcJV72N  [style=dotted arrowhead=normal label="1" tooltip="hugo -> function: \n\n"]
+		dcvxWhE -> dcq8Tjx  [style=dotted arrowhead=normal label="1" tooltip="modules -> function: \n\n"]
+		dc4bCKn -> dbplwOx  [style=dotted arrowhead=diamond label="1" tooltip="config -> allconfig: \n\n"]
+		dbplwOx:dbCGa79 -> dcq8Tjx:dbFpNdC  [style=solid arrowhead=normal label="15" tooltip="configLoader.loadModules -> NewClient: \n\nFrom: load.go (Line: 489, Column: 36) To: client.go (Line: 74, Column: 6)\n"]
+		dbplwOx:dJT5Bm -> dcq8Tjx:ddBW1FY  [style=solid arrowhead=normal label="15" tooltip="Configs.Init -> ApplyProjectConfigDefaults: \n\nFrom: allconfig.go (Line: 692, Column: 46) To: config.go (Line: 60, Column: 6)\n"]
+		dbXdTVV:dcRwe9n -> ddrK512:dcDUU8Y  [style=solid arrowhead=normal label="42" tooltip="rootCommand.ConfigFromProvider -> LoadConfig: \n\nFrom: commandeer.go (Line: 217, Column: 39) To: load.go (Line: 43, Column: 6)\n"]
+		dMqvaM:ddoJpUx -> dbXdTVV:ddzdLu1  [style=solid arrowhead=normal label="3" tooltip="newNewCommand -> rootCommand.Hugo: \n\nFrom: new.go (Line: 56, Column: 22) To: commandeer.go (Line: 313, Column: 23)\n"]
+		dMqvaM:ddLD5U6 -> dcvxWhE:dHHKxx  [style=solid arrowhead=normal label="1" tooltip="newModCommands -> Client.Vendor: \n\nFrom: mod.go (Line: 194, Column: 43) To: client.go (Line: 197, Column: 18)\n"]
+		dMqvaM:db503Tz -> dbHCVgA:dbkmqSX  [style=solid arrowhead=normal label="3" tooltip="newGenCommand -> DefaultConfig: \n\nFrom: gen.go (Line: 197, Column: 35) To: config.go (Line: 26, Column: 6)\n"]
+		dbXdTVV -> dMqvaM  [style=dotted arrowhead=normal label="1" tooltip="commands -> function: \n\n"]
+
+	label = "\n\ngithub.com/gohugoio/hugo\nDomain Model\n\nPowered by DDD Player";
+    fontsize=20;
+}

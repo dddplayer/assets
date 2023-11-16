@@ -1,0 +1,1159 @@
+digraph {
+	node [style=dotted shape=rect]
+
+    subgraph cluster_ddd_concept{
+		node [color=white]
+
+        ddd_concept [label=<
+        <table border="0" cellpadding="10">
+		<tr>
+			<td bgcolor="#ffffff00" rowspan="1" colspan="1">BoundedContext</td>
+			<td bgcolor="#ffd966ff" rowspan="1" colspan="1">AggregateRoot</td>
+			<td bgcolor="#ffe599ff" rowspan="1" colspan="1">Entity</td>
+			<td bgcolor="#a2c4c9ff" rowspan="1" colspan="1">ValueObject</td>
+			<td bgcolor="#e69138ff" rowspan="1" colspan="1">Service</td>
+		</tr>
+		<tr>
+			<td bgcolor="white" rowspan="1" colspan="1"></td>
+			<td bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Command</td>
+			<td bgcolor="#f6b26bff" rowspan="1" colspan="1">Event</td>
+			<td bgcolor="#cfe2f3ff" rowspan="1" colspan="1">Factory</td>
+			<td bgcolor="#b4a7d6ff" rowspan="1" colspan="1">Class</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor="white" rowspan="1" colspan="1"></td>
+			<td bgcolor="#f4ccccff" rowspan="1" colspan="1">General</td>
+			<td bgcolor="#ead1dcff" rowspan="1" colspan="1">Function</td>
+			<td bgcolor="#9fc5e8ff" rowspan="1" colspan="1">Interface</td>
+			<td bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Attribute</td>
+		</tr>
+        </table>
+        > ]
+	}
+
+    
+		subgraph cluster_dcvxWhE {
+	
+		
+    	dcvxWhE [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dciXvg3" bgcolor="#b4a7d6ff" rowspan="4" colspan="1">goModule</td>
+			<td port="deHWyQZ" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Path</td>
+			<td port="dcmehsS" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Version</td>
+			<td port="dIjyYb" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Versions</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcbDNeu" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Replace</td>
+			<td port="db5gt7B" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Time</td>
+			<td port="d6bhoH" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Update</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcM01wT" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Main</td>
+			<td port="dbO8iKM" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Indirect</td>
+			<td port="dqjOln" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Dir</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcNqtE6" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">GoMod</td>
+			<td port="ddmK81y" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Error</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dHHKxx" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Vendor</td>
+			<td port="ddzCDgZ" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Tidy</td>
+			<td port="dcxpf89" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Graph</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcDPEe2" bgcolor="#b4a7d6ff" rowspan="7" colspan="1">Client</td>
+			<td port="ddtEDSi" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">fs</td>
+			<td port="dEgg9n" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">logger</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db6zBij" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Init</td>
+			<td port="dcmaCL" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">get</td>
+			<td port="dc2j5Y1" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Get</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddCFoPW" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">noVendor</td>
+			<td port="dicHfu" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ccfg</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dSEOLZ" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">runVerify</td>
+			<td port="dxje9k" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Clean</td>
+			<td port="dd9rT2E" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Verify</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dUfZtF" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">moduleConfig</td>
+			<td port="d6pXq8" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">environ</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcCZZnP" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">rewriteGoModRewrite</td>
+			<td port="ddTsTsH" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">rewriteGoMod</td>
+			<td port="d6j3vA" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">listGoMods</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deFfypj" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">GoModulesFilename</td>
+			<td port="dbL7UlG" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">goBinaryStatus</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbhiDTH" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">tidy</td>
+			<td port="def1Chy" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">runGo</td>
+			<td port="dbrd7at" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">rmVendorDir</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbnl7D1" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Collect</td>
+			<td port="dbkmdhQ" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">createThemeDirname</td>
+			<td port="d3Ed3i" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">shouldVendor</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcgBxsF" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">collect</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deFzf1g" bgcolor="#b4a7d6ff" rowspan="2" colspan="1">collected</td>
+			<td port="delmsCk" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">seen</td>
+			<td port="ddiLh1O" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">vendored</td>
+			<td port="drunms" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">gomods</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dclNqpq" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">modules</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbjiNmx" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">finalize</td>
+			<td port="dcxtCmS" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">setActiveMods</td>
+			<td port="dbusXnP" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">HasConfigFile</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deyDxvk" bgcolor="#b4a7d6ff" rowspan="1" colspan="1">ModulesConfig</td>
+			<td port="dcmWqrl" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">AllModules</td>
+			<td port="dNf8Ez" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">GoModulesFilename</td>
+			<td port="dD98i5" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">GoWorkspaceFilename</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbAy8Wr" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">IsValid</td>
+			<td port="ddvjcCa" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">String</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbAEdcG" bgcolor="#b4a7d6ff" rowspan="1" colspan="1">HugoVersion</td>
+			<td port="ddRcjaZ" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Min</td>
+			<td port="dd7beTB" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Max</td>
+			<td port="dd1Dufs" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Extended</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddvT6Gv" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">hasModuleImport</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddZuT3b" bgcolor="#b4a7d6ff" rowspan="4" colspan="1">Config</td>
+			<td port="ddFnyr8" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Mounts</td>
+			<td port="ddJR0p4" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Imports</td>
+			<td port="dcG3GNu" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Params</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dMBEdD" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">HugoVersion</td>
+			<td port="db1fnRx" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">NoVendor</td>
+			<td port="dcY5D1R" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">VendorClosest</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddy2xaP" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Replacements</td>
+			<td port="deFf5e9" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">replacementsMap</td>
+			<td port="dcQgwIe" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Proxy</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dboS1CL" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">NoProxy</td>
+			<td port="den7EIx" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Private</td>
+			<td port="dcufD7V" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Workspace</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dfes6A" bgcolor="#b4a7d6ff" rowspan="1" colspan="1">vendoredModule</td>
+			<td port="dex6OUI" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Owner</td>
+			<td port="delGa0k" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Dir</td>
+			<td port="demLZ1t" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Version</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dewrNYp" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">ConfigFilenames</td>
+			<td port="dbX5Ffb" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Config</td>
+			<td port="dbtcidJ" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Cfg</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbiLQ48" bgcolor="#b4a7d6ff" rowspan="5" colspan="1">moduleAdapter</td>
+			<td port="dJzFqU" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">path</td>
+			<td port="dbbCUYu" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">dir</td>
+			<td port="defbDiN" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">version</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcfpYh" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Mounts</td>
+			<td port="dek55c1" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">IsGoMod</td>
+			<td port="dcZvMOi" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Dir</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcFOEtT" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">vendor</td>
+			<td port="d19VDS" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">projectMod</td>
+			<td port="ddxZXJQ" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">owner</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dlmEJf" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Replace</td>
+			<td port="dcFcnjq" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Path</td>
+			<td port="dbqMxki" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Owner</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="duBokR" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">mounts</td>
+			<td port="dbsLDqt" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">configFilenames</td>
+			<td port="delYFzZ" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">cfg</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dGgzqS" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Time</td>
+			<td port="db1nBOp" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Version</td>
+			<td port="dckEd7j" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Vendor</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dGwCLf" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">config</td>
+			<td port="db1A0in" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">gomod</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbohVn6" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Watch</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcK5yiJ" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">getVendoredDir</td>
+			<td port="deC1h5O" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">isSeen</td>
+			<td port="dcbvFrs" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">initModules</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deUBUO" bgcolor="#b4a7d6ff" rowspan="5" colspan="1">collector</td>
+			<td port="debC3VG" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Client</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcaIrqX" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">applyMounts</td>
+			<td port="ddBl9CU" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">addAndRecurse</td>
+			<td port="deh1Jd2" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">add</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="d8c3Rg" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">err</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcN2kzC" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">isVendored</td>
+			<td port="dcLBdFB" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">collect</td>
+			<td port="dbgoQhO" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">applyThemeConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcPWJUs" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">skipTidy</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deONapS" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">mountCommonJSConfig</td>
+			<td port="deBEm54" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">loadModules</td>
+			<td port="dbucPpC" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">collectModulesTXT</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deuf5qC" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">collected</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd5Byji" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">wrapModuleNotFound</td>
+			<td port="dbXpc3m" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">normalizeMounts</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcQpFHf" bgcolor="#b4a7d6ff" rowspan="1" colspan="1">goModuleError</td>
+			<td port="deN2Y7L" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Err</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dtacDM" bgcolor="#b4a7d6ff" rowspan="3" colspan="1">Import</td>
+			<td port="dbKnRry" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Path</td>
+			<td port="dmDZZ1" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">pathProjectReplaced</td>
+			<td port="dckPMqT" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">IgnoreConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcWEpMx" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">IgnoreImports</td>
+			<td port="dbMTJ68" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">NoMounts</td>
+			<td port="ddDX13w" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">NoVendor</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deznpcF" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Disable</td>
+			<td port="ddzX00p" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Mounts</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="desTqnm" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Component</td>
+			<td port="ddf4kUA" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">key</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="d8ZSK6" bgcolor="#b4a7d6ff" rowspan="2" colspan="1">Mount</td>
+			<td port="ddryxgQ" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Source</td>
+			<td port="db54lp0" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Target</td>
+			<td port="dec8hiJ" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Lang</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db3utye" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">ComponentAndName</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dc1GD0C" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">IncludeFiles</td>
+			<td port="dd4RxXO" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ExcludeFiles</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dFRHhS" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">shouldIgnoreVendor</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="desuZg4" bgcolor="#b4a7d6ff" rowspan="4" colspan="1">ClientConfig</td>
+			<td port="ddGD9je" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Fs</td>
+			<td port="dnsWsz" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Logger</td>
+			<td port="d6xEiF" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">HookBeforeFinalize</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcMmX6r" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">IgnoreVendor</td>
+			<td port="ddWP8qx" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">WorkingDir</td>
+			<td port="d8SfLO" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ThemesDir</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbkN13m" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Environment</td>
+			<td port="deb4k9E" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">Exec</td>
+			<td port="denImBA" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">CacheDir</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd9AqJv" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">ModuleConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dpjAFW" bgcolor="#ead1dcff" rowspan="1" colspan="1">ConfigFilenames</td>
+			<td port="db4bpT2" bgcolor="#ead1dcff" rowspan="1" colspan="1">Config</td>
+			<td port="dbfE90y" bgcolor="#ead1dcff" rowspan="1" colspan="1">Cfg</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deLWGo5" bgcolor="#9fc5e8ff" rowspan="5" colspan="1">Module</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcRYvFw" bgcolor="#ead1dcff" rowspan="1" colspan="1">Mounts</td>
+			<td port="dmYim0" bgcolor="#ead1dcff" rowspan="1" colspan="1">IsGoMod</td>
+			<td port="djZoef" bgcolor="#ead1dcff" rowspan="1" colspan="1">Dir</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddq2qha" bgcolor="#ead1dcff" rowspan="1" colspan="1">Replace</td>
+			<td port="dcjNL05" bgcolor="#ead1dcff" rowspan="1" colspan="1">Path</td>
+			<td port="dwDbnN" bgcolor="#ead1dcff" rowspan="1" colspan="1">Owner</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcK2Eix" bgcolor="#ead1dcff" rowspan="1" colspan="1">Time</td>
+			<td port="dcYWawM" bgcolor="#ead1dcff" rowspan="1" colspan="1">Version</td>
+			<td port="dTqKwq" bgcolor="#ead1dcff" rowspan="1" colspan="1">Vendor</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddevzjR" bgcolor="#ead1dcff" rowspan="1" colspan="1">Watch</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="10">modules</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/modules"
+
+	
+		subgraph cluster_drY9tT {
+	
+		
+    	drY9tT [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db6e87U" bgcolor="#f4ccccff" rowspan="1" colspan="1">goBinaryStatus</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dei0PsS" bgcolor="#f4ccccff" rowspan="1" colspan="1">goModules</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbNappm" bgcolor="#f4ccccff" rowspan="1" colspan="1">Modules</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="8">general</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/modules/general"
+
+	
+    }
+		subgraph cluster_dcq8Tjx {
+	
+		
+    	dcq8Tjx [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddP33JF" bgcolor="#ead1dcff" rowspan="1" colspan="1">decodeConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="defqX4P" bgcolor="#ead1dcff" rowspan="1" colspan="1">DecodeConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddlCI1I" bgcolor="#ead1dcff" rowspan="1" colspan="1">getModlineSplitter</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddBW1FY" bgcolor="#ead1dcff" rowspan="1" colspan="1">ApplyProjectConfigDefaults</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dfgY6o" bgcolor="#ead1dcff" rowspan="1" colspan="1">createProjectModule</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbFpNdC" bgcolor="#ead1dcff" rowspan="1" colspan="1">NewClient</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db7IEV7" bgcolor="#ead1dcff" rowspan="1" colspan="1">IsNotExist</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deOKyWb" bgcolor="#ead1dcff" rowspan="1" colspan="1">filterUnwantedMounts</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcrBavm" bgcolor="#ead1dcff" rowspan="1" colspan="1">isProbablyModule</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcU0FJ0" bgcolor="#ead1dcff" rowspan="1" colspan="2">pathVersion</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dOKC7J" bgcolor="#ead1dcff" rowspan="1" colspan="2">pathKey</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="8">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/modules/function"
+
+	
+    }
+		subgraph cluster_ddqkX6k {
+	
+		
+    	ddqkX6k [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd0DJNE" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">unmarshal</td>
+			<td port="dbaaw5n" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">addm</td>
+			<td port="dglzKO" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Add</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbTmt52" bgcolor="#b4a7d6ff" rowspan="2" colspan="1">packageBuilder</td>
+			<td port="deb7yQa" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">err</td>
+			<td port="dGJNou" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">originalPackageJSON</td>
+			<td port="dbPFnNd" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">devDependencies</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dclqe0m" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Err</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dzNCcF" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">devDependenciesComments</td>
+			<td port="dcbm3Se" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">dependencies</td>
+			<td port="dQt514" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">dependenciesComments</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="10">npm</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/modules/npm"
+
+	
+		subgraph cluster_dbPxpbD {
+	
+		
+    	dbPxpbD [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcYsZLU" bgcolor="#ead1dcff" rowspan="1" colspan="2">newPackageBuilder</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db5PG3W" bgcolor="#ead1dcff" rowspan="1" colspan="2">Pack</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="7">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/modules/npm/function"
+
+	
+    }
+    }
+    }
+		subgraph cluster_drY9tT {
+	
+		
+    	drY9tT [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db6e87U" bgcolor="#f4ccccff" rowspan="1" colspan="1">goBinaryStatus</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dei0PsS" bgcolor="#f4ccccff" rowspan="1" colspan="1">goModules</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbNappm" bgcolor="#f4ccccff" rowspan="1" colspan="1">Modules</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="8">general</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/modules/general"
+
+	
+    }
+		subgraph cluster_dcq8Tjx {
+	
+		
+    	dcq8Tjx [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddP33JF" bgcolor="#ead1dcff" rowspan="1" colspan="1">decodeConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="defqX4P" bgcolor="#ead1dcff" rowspan="1" colspan="1">DecodeConfig</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddlCI1I" bgcolor="#ead1dcff" rowspan="1" colspan="1">getModlineSplitter</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="ddBW1FY" bgcolor="#ead1dcff" rowspan="1" colspan="1">ApplyProjectConfigDefaults</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dfgY6o" bgcolor="#ead1dcff" rowspan="1" colspan="1">createProjectModule</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbFpNdC" bgcolor="#ead1dcff" rowspan="1" colspan="1">NewClient</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db7IEV7" bgcolor="#ead1dcff" rowspan="1" colspan="1">IsNotExist</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="deOKyWb" bgcolor="#ead1dcff" rowspan="1" colspan="1">filterUnwantedMounts</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcrBavm" bgcolor="#ead1dcff" rowspan="1" colspan="1">isProbablyModule</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcU0FJ0" bgcolor="#ead1dcff" rowspan="1" colspan="2">pathVersion</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dOKC7J" bgcolor="#ead1dcff" rowspan="1" colspan="2">pathKey</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="8">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/modules/function"
+
+	
+    }
+		subgraph cluster_ddqkX6k {
+	
+		
+    	ddqkX6k [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dd0DJNE" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">unmarshal</td>
+			<td port="dbaaw5n" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">addm</td>
+			<td port="dglzKO" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Add</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dbTmt52" bgcolor="#b4a7d6ff" rowspan="2" colspan="1">packageBuilder</td>
+			<td port="deb7yQa" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">err</td>
+			<td port="dGJNou" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">originalPackageJSON</td>
+			<td port="dbPFnNd" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">devDependencies</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dclqe0m" bgcolor="#a4c2f4ff" rowspan="1" colspan="1">Err</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dzNCcF" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">devDependenciesComments</td>
+			<td port="dcbm3Se" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">dependencies</td>
+			<td port="dQt514" bgcolor="#f3f3f3ff" rowspan="1" colspan="1">dependenciesComments</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="10">npm</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/modules/npm"
+
+	
+		subgraph cluster_dbPxpbD {
+	
+		
+    	dbPxpbD [label=<
+        <table border="0" cellpadding="10">
+			
+				<tr>
+		
+			<td port="first_blank_row" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="dcYsZLU" bgcolor="#ead1dcff" rowspan="1" colspan="2">newPackageBuilder</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+			<td port="db5PG3W" bgcolor="#ead1dcff" rowspan="1" colspan="2">Pack</td>
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="1"></td>
+	</tr>
+				<tr>
+		
+			<td port="" bgcolor="white" rowspan="1" colspan="7">function</td>
+	</tr>
+        </table>
+        > ]
+	
+
+	label = "github.com/gohugoio/hugo/modules/npm/function"
+
+	
+    }
+    }
+
+	
+		dcq8Tjx:ddBW1FY -> dcvxWhE:desTqnm  [style=solid arrowhead=normal label="1" tooltip="ApplyProjectConfigDefaults -> Mount.Component: \n\nFrom: config.go (Line: 70, Column: 38) To: config.go (Line: 408, Column: 16)\n"]
+		dcvxWhE:dclNqpq -> drY9tT:dbNappm  [style=dotted arrowhead=normal label="1" tooltip="collected.modules -> Modules: \n\nFrom: collect.go (Line: 176, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE -> drY9tT  [style=dotted arrowhead=normal label="1" tooltip="modules -> general: \n\n"]
+		dcvxWhE:dc2j5Y1 -> dcvxWhE:dcmaCL  [style=solid arrowhead=normal label="1" tooltip="Client.Get -> Client.get: \n\nFrom: client.go (Line: 357, Column: 19) To: client.go (Line: 368, Column: 18)\n"]
+		dcvxWhE:dHHKxx -> dcvxWhE:dcgBxsF  [style=solid arrowhead=normal label="1" tooltip="Client.Vendor -> Client.collect: \n\nFrom: client.go (Line: 217, Column: 23) To: collect.go (Line: 78, Column: 18)\n"]
+		dcvxWhE:dxje9k -> dcvxWhE:d6j3vA  [style=solid arrowhead=normal label="1" tooltip="Client.Clean -> Client.listGoMods: \n\nFrom: client.go (Line: 429, Column: 27) To: client.go (Line: 468, Column: 18)\n"]
+		dcvxWhE:ddxZXJQ -> dcvxWhE:deLWGo5  [style=dotted arrowhead=normal label="1" tooltip="moduleAdapter.owner -> Module: \n\nFrom: module.go (Line: 82, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		ddqkX6k:dglzKO -> ddqkX6k:dbaaw5n  [style=solid arrowhead=normal label="1" tooltip="packageBuilder.Add -> packageBuilder.addm: \n\nFrom: package_builder.go (Line: 188, Column: 8) To: package_builder.go (Line: 193, Column: 26)\n"]
+		dcvxWhE -> ddqkX6k  [style=dotted arrowhead=diamond label="1" tooltip="modules -> npm: \n\n"]
+		dcvxWhE:dcmaCL -> dcvxWhE:def1Chy  [style=solid arrowhead=normal label="1" tooltip="Client.get -> Client.runGo: \n\nFrom: client.go (Line: 381, Column: 19) To: client.go (Line: 636, Column: 18)\n"]
+		dcvxWhE:dcZvMOi -> dcvxWhE:dek55c1  [style=solid arrowhead=normal label="1" tooltip="moduleAdapter.Dir -> moduleAdapter.IsGoMod: \n\nFrom: module.go (Line: 108, Column: 15) To: module.go (Line: 114, Column: 25)\n"]
+		dcvxWhE:deh1Jd2 -> dcvxWhE:dFRHhS  [style=solid arrowhead=normal label="1" tooltip="collector.add -> ClientConfig.shouldIgnoreVendor: \n\nFrom: collect.go (Line: 234, Column: 31) To: client.go (Line: 772, Column: 23)\n"]
+		dcvxWhE:dicHfu -> dcvxWhE:desuZg4  [style=dotted arrowhead=normal label="1" tooltip="Client.ccfg -> ClientConfig: \n\nFrom: client.go (Line: 126, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE:dlmEJf -> dcvxWhE:dckEd7j  [style=solid arrowhead=normal label="1" tooltip="moduleAdapter.Replace -> moduleAdapter.Vendor: \n\nFrom: module.go (Line: 134, Column: 29) To: module.go (Line: 143, Column: 25)\n"]
+		dcvxWhE:dGwCLf -> dcvxWhE:ddZuT3b  [style=dotted arrowhead=normal label="1" tooltip="moduleAdapter.config -> Config: \n\nFrom: module.go (Line: 88, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE:deuf5qC -> dcvxWhE:deFzf1g  [style=dotted arrowhead=normal label="1" tooltip="collector.collected -> collected: \n\nFrom: collect.go (Line: 189, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE:dcaIrqX -> dcvxWhE:dcZvMOi  [style=solid arrowhead=normal label="1" tooltip="collector.applyMounts -> moduleAdapter.Dir: \n\nFrom: collect.go (Line: 383, Column: 38) To: module.go (Line: 106, Column: 25)\n"]
+		dcvxWhE:ddBl9CU -> dcvxWhE:deh1Jd2  [style=solid arrowhead=normal label="1" tooltip="collector.addAndRecurse -> collector.add: \n\nFrom: collect.go (Line: 349, Column: 20) To: collect.go (Line: 222, Column: 21)\n"]
+		dcvxWhE:duBokR -> dcvxWhE:d8ZSK6  [style=dotted arrowhead=normal label="1" tooltip="moduleAdapter.mounts -> Mount: \n\nFrom: module.go (Line: 84, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE:dcbDNeu -> dcvxWhE:dciXvg3  [style=dotted arrowhead=normal label="1" tooltip="goModule.Replace -> goModule: \n\nFrom: client.go (Line: 782, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE:d6j3vA -> dcvxWhE:ddvT6Gv  [style=solid arrowhead=normal label="1" tooltip="Client.listGoMods -> Config.hasModuleImport: \n\nFrom: client.go (Line: 469, Column: 65) To: config.go (Line: 304, Column: 17)\n"]
+		dcvxWhE:ddzX00p -> dcvxWhE:d8ZSK6  [style=dotted arrowhead=normal label="1" tooltip="Import.Mounts -> Mount: \n\nFrom: config.go (Line: 383, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE:dUfZtF -> dcvxWhE:ddZuT3b  [style=dotted arrowhead=normal label="1" tooltip="Client.moduleConfig -> Config: \n\nFrom: client.go (Line: 129, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE:ddzCDgZ -> dcvxWhE:dbhiDTH  [style=solid arrowhead=normal label="1" tooltip="Client.Tidy -> Client.tidy: \n\nFrom: client.go (Line: 182, Column: 15) To: client.go (Line: 694, Column: 18)\n"]
+		dcvxWhE:dcxtCmS -> dcvxWhE:dbAy8Wr  [style=solid arrowhead=normal label="1" tooltip="ModulesConfig.setActiveMods -> HugoVersion.IsValid: \n\nFrom: collect.go (Line: 134, Column: 39) To: config.go (Line: 348, Column: 22)\n"]
+		dcvxWhE:ddBl9CU -> dcvxWhE:dbX5Ffb  [style=solid arrowhead=normal label="1" tooltip="collector.addAndRecurse -> moduleAdapter.Config: \n\nFrom: collect.go (Line: 337, Column: 30) To: module.go (Line: 98, Column: 25)\n"]
+		dcvxWhE:ddzCDgZ -> dcvxWhE:dcgBxsF  [style=solid arrowhead=normal label="1" tooltip="Client.Tidy -> Client.collect: \n\nFrom: client.go (Line: 173, Column: 23) To: collect.go (Line: 78, Column: 18)\n"]
+		dcvxWhE:deh1Jd2 -> dcvxWhE:dbgoQhO  [style=solid arrowhead=normal label="1" tooltip="collector.add -> collector.applyThemeConfig: \n\nFrom: collect.go (Line: 323, Column: 31) To: collect.go (Line: 409, Column: 21)\n"]
+		dcvxWhE:dbohVn6 -> dcvxWhE:dlmEJf  [style=solid arrowhead=normal label="1" tooltip="moduleAdapter.Watch -> moduleAdapter.Replace: \n\nFrom: module.go (Line: 176, Column: 19) To: module.go (Line: 133, Column: 25)\n"]
+		ddqkX6k:dglzKO -> ddqkX6k:dd0DJNE  [style=solid arrowhead=normal label="1" tooltip="packageBuilder.Add -> packageBuilder.unmarshal: \n\nFrom: package_builder.go (Line: 183, Column: 18) To: package_builder.go (Line: 226, Column: 26)\n"]
+		dcvxWhE:dbL7UlG -> drY9tT:db6e87U  [style=dotted arrowhead=normal label="1" tooltip="Client.goBinaryStatus -> goBinaryStatus: \n\nFrom: client.go (Line: 142, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE:deh1Jd2 -> dcvxWhE:dbucPpC  [style=solid arrowhead=normal label="1" tooltip="collector.add -> collector.collectModulesTXT: \n\nFrom: collect.go (Line: 235, Column: 32) To: collect.go (Line: 539, Column: 21)\n"]
+		dcvxWhE:dcCZZnP -> dcq8Tjx:ddlCI1I  [style=solid arrowhead=normal label="1" tooltip="Client.rewriteGoModRewrite -> getModlineSplitter: \n\nFrom: client.go (Line: 575, Column: 39) To: client.go (Line: 822, Column: 6)\n"]
+		ddqkX6k -> dbPxpbD  [style=dotted arrowhead=normal label="1" tooltip="npm -> function: \n\n"]
+		dcvxWhE:dcxpf89 -> dcq8Tjx:dcU0FJ0  [style=solid arrowhead=normal label="1" tooltip="Client.Graph -> pathVersion: \n\nFrom: client.go (Line: 159, Column: 32) To: client.go (Line: 844, Column: 6)\n"]
+		dcvxWhE:dcaIrqX -> dcvxWhE:dbXpc3m  [style=solid arrowhead=normal label="1" tooltip="collector.applyMounts -> collector.normalizeMounts: \n\nFrom: collect.go (Line: 395, Column: 33) To: collect.go (Line: 633, Column: 21)\n"]
+		dcvxWhE:db6zBij -> dcvxWhE:def1Chy  [style=solid arrowhead=normal label="1" tooltip="Client.Init -> Client.runGo: \n\nFrom: client.go (Line: 391, Column: 16) To: client.go (Line: 636, Column: 18)\n"]
+		dcvxWhE:dbjiNmx -> dcq8Tjx:deOKyWb  [style=solid arrowhead=normal label="1" tooltip="ModulesConfig.finalize -> filterUnwantedMounts: \n\nFrom: collect.go (Line: 145, Column: 34) To: collect.go (Line: 150, Column: 6)\n"]
+		dcvxWhE:ddJR0p4 -> dcvxWhE:dtacDM  [style=dotted arrowhead=normal label="1" tooltip="Config.Imports -> Import: \n\nFrom: config.go (Line: 256, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE:dd9AqJv -> dcvxWhE:ddZuT3b  [style=dotted arrowhead=normal label="1" tooltip="ClientConfig.ModuleConfig -> Config: \n\nFrom: client.go (Line: 769, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE:db1A0in -> dcvxWhE:dciXvg3  [style=dotted arrowhead=normal label="1" tooltip="moduleAdapter.gomod -> goModule: \n\nFrom: module.go (Line: 91, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE:debC3VG -> dcvxWhE:dcDPEe2  [style=dotted arrowhead=normal label="1" tooltip="collector.Client -> Client: \n\nFrom: collect.go (Line: 181, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE:dbnl7D1 -> dcvxWhE:dcxtCmS  [style=solid arrowhead=normal label="1" tooltip="Client.Collect -> ModulesConfig.setActiveMods: \n\nFrom: collect.go (Line: 61, Column: 31) To: collect.go (Line: 132, Column: 25)\n"]
+		dcq8Tjx:deOKyWb -> dcvxWhE:ddf4kUA  [style=solid arrowhead=normal label="1" tooltip="filterUnwantedMounts -> Mount.key: \n\nFrom: collect.go (Line: 158, Column: 13) To: config.go (Line: 404, Column: 16)\n"]
+		dcvxWhE:dbgoQhO -> dcvxWhE:dcFcnjq  [style=solid arrowhead=normal label="1" tooltip="collector.applyThemeConfig -> moduleAdapter.Path: \n\nFrom: collect.go (Line: 439, Column: 75) To: module.go (Line: 126, Column: 25)\n"]
+		dcvxWhE:dSEOLZ -> dcvxWhE:def1Chy  [style=solid arrowhead=normal label="1" tooltip="Client.runVerify -> Client.runGo: \n\nFrom: client.go (Line: 461, Column: 16) To: client.go (Line: 636, Column: 18)\n"]
+		dcvxWhE:ddiLh1O -> dcvxWhE:dfes6A  [style=dotted arrowhead=normal label="1" tooltip="collected.vendored -> vendoredModule: \n\nFrom: collect.go (Line: 169, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE:dcLBdFB -> dcq8Tjx:dfgY6o  [style=solid arrowhead=normal label="1" tooltip="collector.collect -> createProjectModule: \n\nFrom: collect.go (Line: 523, Column: 35) To: collect.go (Line: 715, Column: 6)\n"]
+		dcvxWhE:dcLBdFB -> dcvxWhE:dcbvFrs  [style=solid arrowhead=normal label="1" tooltip="collector.collect -> collector.initModules: \n\nFrom: collect.go (Line: 518, Column: 25) To: collect.go (Line: 192, Column: 21)\n"]
+		dcvxWhE:ddBl9CU -> dcvxWhE:deC1h5O  [style=solid arrowhead=normal label="1" tooltip="collector.addAndRecurse -> collector.isSeen: \n\nFrom: collect.go (Line: 348, Column: 15) To: collect.go (Line: 208, Column: 21)\n"]
+		dcvxWhE:drunms -> drY9tT:dei0PsS  [style=dotted arrowhead=normal label="1" tooltip="collected.gomods -> goModules: \n\nFrom: collect.go (Line: 172, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE:deh1Jd2 -> dcvxWhE:dc2j5Y1  [style=solid arrowhead=normal label="1" tooltip="collector.add -> Client.Get: \n\nFrom: collect.go (Line: 271, Column: 20) To: client.go (Line: 315, Column: 18)\n"]
+		dcvxWhE:deh1Jd2 -> dcvxWhE:dd5Byji  [style=solid arrowhead=normal label="1" tooltip="collector.add -> collector.wrapModuleNotFound: \n\nFrom: collect.go (Line: 301, Column: 31) To: collect.go (Line: 691, Column: 21)\n"]
+		dcvxWhE:dcgBxsF -> dcvxWhE:dcLBdFB  [style=solid arrowhead=normal label="1" tooltip="Client.collect -> collector.collect: \n\nFrom: collect.go (Line: 86, Column: 11) To: collect.go (Line: 510, Column: 21)\n"]
+		dcvxWhE:dex6OUI -> dcvxWhE:deLWGo5  [style=dotted arrowhead=normal label="1" tooltip="vendoredModule.Owner -> Module: \n\nFrom: collect.go (Line: 710, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE:dcbvFrs -> dcvxWhE:deBEm54  [style=solid arrowhead=normal label="1" tooltip="collector.initModules -> collector.loadModules: \n\nFrom: collect.go (Line: 205, Column: 22) To: collect.go (Line: 587, Column: 21)\n"]
+		dcvxWhE:dcFcnjq -> dcvxWhE:dek55c1  [style=solid arrowhead=normal label="1" tooltip="moduleAdapter.Path -> moduleAdapter.IsGoMod: \n\nFrom: module.go (Line: 127, Column: 15) To: module.go (Line: 114, Column: 25)\n"]
+		dcvxWhE:dHHKxx -> dcvxWhE:d3Ed3i  [style=solid arrowhead=normal label="1" tooltip="Client.Vendor -> Client.shouldVendor: \n\nFrom: client.go (Line: 228, Column: 21) To: client.go (Line: 722, Column: 18)\n"]
+		dcvxWhE:ddFnyr8 -> dcvxWhE:d8ZSK6  [style=dotted arrowhead=normal label="1" tooltip="Config.Mounts -> Mount: \n\nFrom: config.go (Line: 253, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE:dMBEdD -> dcvxWhE:dbAEdcG  [style=dotted arrowhead=normal label="1" tooltip="Config.HugoVersion -> HugoVersion: \n\nFrom: config.go (Line: 262, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE:ddmK81y -> dcvxWhE:dcQpFHf  [style=dotted arrowhead=normal label="1" tooltip="goModule.Error -> goModuleError: \n\nFrom: client.go (Line: 789, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE:dbgoQhO -> dcq8Tjx:ddP33JF  [style=solid arrowhead=normal label="1" tooltip="collector.applyThemeConfig -> decodeConfig: \n\nFrom: collect.go (Line: 476, Column: 29) To: config.go (Line: 169, Column: 6)\n"]
+		dcvxWhE:dd9rT2E -> dcvxWhE:dSEOLZ  [style=solid arrowhead=normal label="1" tooltip="Client.Verify -> Client.runVerify: \n\nFrom: client.go (Line: 422, Column: 21) To: client.go (Line: 460, Column: 18)\n"]
+		dcvxWhE:deC1h5O -> dcq8Tjx:dOKC7J  [style=solid arrowhead=normal label="1" tooltip="collector.isSeen -> pathKey: \n\nFrom: collect.go (Line: 209, Column: 16) To: collect.go (Line: 735, Column: 6)\n"]
+		dcvxWhE:dc2j5Y1 -> dcq8Tjx:dcrBavm  [style=solid arrowhead=normal label="1" tooltip="Client.Get -> isProbablyModule: \n\nFrom: client.go (Line: 336, Column: 25) To: client.go (Line: 464, Column: 6)\n"]
+		dcvxWhE:deONapS -> dcvxWhE:dcZvMOi  [style=solid arrowhead=normal label="1" tooltip="collector.mountCommonJSConfig -> moduleAdapter.Dir: \n\nFrom: collect.go (Line: 612, Column: 67) To: module.go (Line: 106, Column: 25)\n"]
+		dcvxWhE:deh1Jd2 -> dcvxWhE:dcaIrqX  [style=solid arrowhead=normal label="1" tooltip="collector.add -> collector.applyMounts: \n\nFrom: collect.go (Line: 328, Column: 25) To: collect.go (Line: 364, Column: 21)\n"]
+		dcvxWhE:dbgoQhO -> dcvxWhE:dcZvMOi  [style=solid arrowhead=normal label="1" tooltip="collector.applyThemeConfig -> moduleAdapter.Dir: \n\nFrom: collect.go (Line: 459, Column: 35) To: module.go (Line: 106, Column: 25)\n"]
+		dcvxWhE:dbXpc3m -> dcvxWhE:dcZvMOi  [style=solid arrowhead=normal label="1" tooltip="collector.normalizeMounts -> moduleAdapter.Dir: \n\nFrom: collect.go (Line: 635, Column: 18) To: module.go (Line: 106, Column: 25)\n"]
+		dcvxWhE:db1nBOp -> dcvxWhE:dek55c1  [style=solid arrowhead=normal label="1" tooltip="moduleAdapter.Version -> moduleAdapter.IsGoMod: \n\nFrom: module.go (Line: 148, Column: 15) To: module.go (Line: 114, Column: 25)\n"]
+		dcvxWhE -> dcq8Tjx  [style=dotted arrowhead=normal label="1" tooltip="modules -> function: \n\n"]
+		dcvxWhE:d6bhoH -> dcvxWhE:dciXvg3  [style=dotted arrowhead=normal label="1" tooltip="goModule.Update -> goModule: \n\nFrom: client.go (Line: 784, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE:dHHKxx -> dcvxWhE:dbrd7at  [style=solid arrowhead=normal label="1" tooltip="Client.Vendor -> Client.rmVendorDir: \n\nFrom: client.go (Line: 199, Column: 25) To: client.go (Line: 619, Column: 18)\n"]
+		dcvxWhE:dcbvFrs -> dcvxWhE:dcN2kzC  [style=solid arrowhead=normal label="1" tooltip="collector.initModules -> collector.isVendored: \n\nFrom: collect.go (Line: 200, Column: 47) To: collect.go (Line: 534, Column: 21)\n"]
+		dcvxWhE:ddvT6Gv -> dcq8Tjx:dcrBavm  [style=solid arrowhead=normal label="1" tooltip="Config.hasModuleImport -> isProbablyModule: \n\nFrom: config.go (Line: 306, Column: 22) To: client.go (Line: 464, Column: 6)\n"]
+		dcvxWhE:deh1Jd2 -> dcq8Tjx:dcrBavm  [style=solid arrowhead=normal label="1" tooltip="collector.add -> isProbablyModule: \n\nFrom: collect.go (Line: 264, Column: 52) To: client.go (Line: 464, Column: 6)\n"]
+		dcvxWhE:dc2j5Y1 -> dcvxWhE:dcgBxsF  [style=solid arrowhead=normal label="1" tooltip="Client.Get -> Client.collect: \n\nFrom: client.go (Line: 324, Column: 25) To: collect.go (Line: 78, Column: 18)\n"]
+		dcvxWhE:deh1Jd2 -> dcvxWhE:dcK5yiJ  [style=solid arrowhead=normal label="1" tooltip="collector.add -> collector.getVendoredDir: \n\nFrom: collect.go (Line: 241, Column: 34) To: collect.go (Line: 217, Column: 21)\n"]
+		dcvxWhE:dcaIrqX -> dcvxWhE:dbX5Ffb  [style=solid arrowhead=normal label="1" tooltip="collector.applyMounts -> moduleAdapter.Config: \n\nFrom: collect.go (Line: 372, Column: 25) To: module.go (Line: 98, Column: 25)\n"]
+		dcvxWhE:dcxpf89 -> dcvxWhE:dcgBxsF  [style=solid arrowhead=normal label="1" tooltip="Client.Graph -> Client.collect: \n\nFrom: client.go (Line: 147, Column: 23) To: collect.go (Line: 78, Column: 18)\n"]
+		dcvxWhE:dlmEJf -> dcvxWhE:dek55c1  [style=solid arrowhead=normal label="1" tooltip="moduleAdapter.Replace -> moduleAdapter.IsGoMod: \n\nFrom: module.go (Line: 134, Column: 14) To: module.go (Line: 114, Column: 25)\n"]
+		dbPxpbD:db5PG3W -> ddqkX6k:dglzKO  [style=solid arrowhead=normal label="1" tooltip="Pack -> packageBuilder.Add: \n\nFrom: package_builder.go (Line: 109, Column: 8) To: package_builder.go (Line: 178, Column: 26)\n"]
+		dcvxWhE:dbnl7D1 -> dcvxWhE:dcgBxsF  [style=solid arrowhead=normal label="1" tooltip="Client.Collect -> Client.collect: \n\nFrom: collect.go (Line: 56, Column: 23) To: collect.go (Line: 78, Column: 18)\n"]
+		dcvxWhE:dGgzqS -> dcvxWhE:dek55c1  [style=solid arrowhead=normal label="1" tooltip="moduleAdapter.Time -> moduleAdapter.IsGoMod: \n\nFrom: module.go (Line: 155, Column: 15) To: module.go (Line: 114, Column: 25)\n"]
+		dcvxWhE:dbohVn6 -> dcvxWhE:dek55c1  [style=solid arrowhead=normal label="1" tooltip="moduleAdapter.Watch -> moduleAdapter.IsGoMod: \n\nFrom: module.go (Line: 169, Column: 15) To: module.go (Line: 114, Column: 25)\n"]
+		dbPxpbD:dcYsZLU -> ddqkX6k:dbaaw5n  [style=solid arrowhead=normal label="1" tooltip="newPackageBuilder -> packageBuilder.addm: \n\nFrom: package_builder.go (Line: 160, Column: 8) To: package_builder.go (Line: 193, Column: 26)\n"]
+		dcq8Tjx:defqX4P -> dcq8Tjx:ddP33JF  [style=solid arrowhead=normal label="1" tooltip="DecodeConfig -> decodeConfig: \n\nFrom: config.go (Line: 166, Column: 21) To: config.go (Line: 169, Column: 6)\n"]
+		dcvxWhE:d6j3vA -> dcvxWhE:def1Chy  [style=solid arrowhead=normal label="1" tooltip="Client.listGoMods -> Client.runGo: \n\nFrom: client.go (Line: 496, Column: 17) To: client.go (Line: 636, Column: 18)\n"]
+		dbPxpbD:db5PG3W -> dbPxpbD:dcYsZLU  [style=solid arrowhead=normal label="1" tooltip="Pack -> newPackageBuilder: \n\nFrom: package_builder.go (Line: 86, Column: 23) To: package_builder.go (Line: 147, Column: 6)\n"]
+		dcvxWhE:dcaIrqX -> dcvxWhE:deONapS  [style=solid arrowhead=normal label="1" tooltip="collector.applyMounts -> collector.mountCommonJSConfig: \n\nFrom: collect.go (Line: 400, Column: 37) To: collect.go (Line: 599, Column: 21)\n"]
+		dcvxWhE:deh1Jd2 -> dcvxWhE:deBEm54  [style=solid arrowhead=normal label="1" tooltip="collector.add -> collector.loadModules: \n\nFrom: collect.go (Line: 274, Column: 28) To: collect.go (Line: 587, Column: 21)\n"]
+		dcvxWhE:ddBl9CU -> dcvxWhE:dcaIrqX  [style=solid arrowhead=normal label="1" tooltip="collector.addAndRecurse -> collector.applyMounts: \n\nFrom: collect.go (Line: 339, Column: 26) To: collect.go (Line: 364, Column: 21)\n"]
+		dcvxWhE:dcmWqrl -> drY9tT:dbNappm  [style=dotted arrowhead=normal label="1" tooltip="ModulesConfig.AllModules -> Modules: \n\nFrom: collect.go (Line: 113, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcvxWhE:deBEm54 -> dcvxWhE:d6j3vA  [style=solid arrowhead=normal label="1" tooltip="collector.loadModules -> Client.listGoMods: \n\nFrom: collect.go (Line: 588, Column: 30) To: client.go (Line: 468, Column: 18)\n"]
+		dcvxWhE:deh1Jd2 -> dcvxWhE:dbkmdhQ  [style=solid arrowhead=normal label="1" tooltip="collector.add -> Client.createThemeDirname: \n\nFrom: collect.go (Line: 287, Column: 42) To: client.go (Line: 726, Column: 18)\n"]
+		dcvxWhE:dbXpc3m -> dcvxWhE:dcFcnjq  [style=solid arrowhead=normal label="1" tooltip="collector.normalizeMounts -> moduleAdapter.Path: \n\nFrom: collect.go (Line: 638, Column: 67) To: module.go (Line: 126, Column: 25)\n"]
+		dcvxWhE:dbohVn6 -> dcvxWhE:dbqMxki  [style=solid arrowhead=normal label="1" tooltip="moduleAdapter.Watch -> moduleAdapter.Owner: \n\nFrom: module.go (Line: 164, Column: 12) To: module.go (Line: 122, Column: 25)\n"]
+		dbPxpbD:db5PG3W -> ddqkX6k:dclqe0m  [style=solid arrowhead=normal label="1" tooltip="Pack -> packageBuilder.Err: \n\nFrom: package_builder.go (Line: 114, Column: 59) To: package_builder.go (Line: 235, Column: 26)\n"]
+		dcvxWhE:dcLBdFB -> dcvxWhE:ddBl9CU  [style=solid arrowhead=normal label="1" tooltip="collector.collect -> collector.addAndRecurse: \n\nFrom: collect.go (Line: 525, Column: 27) To: collect.go (Line: 336, Column: 21)\n"]
+		dcvxWhE:ddTsTsH -> dcvxWhE:dcCZZnP  [style=solid arrowhead=normal label="1" tooltip="Client.rewriteGoMod -> Client.rewriteGoModRewrite: \n\nFrom: client.go (Line: 556, Column: 36) To: client.go (Line: 569, Column: 18)\n"]
+		dcvxWhE:dbhiDTH -> dcvxWhE:ddTsTsH  [style=solid arrowhead=normal label="1" tooltip="Client.tidy -> Client.rewriteGoMod: \n\nFrom: client.go (Line: 715, Column: 26) To: client.go (Line: 555, Column: 18)\n"]
+		dcvxWhE:dbnl7D1 -> dcvxWhE:dbjiNmx  [style=solid arrowhead=normal label="1" tooltip="Client.Collect -> ModulesConfig.finalize: \n\nFrom: collect.go (Line: 71, Column: 26) To: collect.go (Line: 142, Column: 25)\n"]
+		dcvxWhE:dbiLQ48 -> dcvxWhE:deLWGo5  [style=dotted arrowhead=normal label="1" tooltip="moduleAdapter -> Module: \n\nFrom: module.go (Line: 76, Column: 6) To: module.go (Line: 27, Column: 6)\n"]
+		dbPxpbD:dcYsZLU -> ddqkX6k:dd0DJNE  [style=solid arrowhead=normal label="1" tooltip="newPackageBuilder -> packageBuilder.unmarshal: \n\nFrom: package_builder.go (Line: 155, Column: 18) To: package_builder.go (Line: 226, Column: 26)\n"]
+
+	label = "\n\ngithub.com/gohugoio/hugo/modules\nDomain Model\n\nPowered by DDD Player";
+    fontsize=20;
+}
