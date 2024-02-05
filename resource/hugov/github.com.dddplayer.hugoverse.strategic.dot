@@ -42,22 +42,137 @@ digraph {
 	label = "github.com/dddplayer/hugoverse"
 
 	
+		subgraph cluster_dctHGkf {
+	
+		
+		dco61II [label="Config" style=filled fillcolor="#ffd966ff"]
+	
+		
+		dbgAW26 [label="moduleAdapter" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		dcG2zGK [label="CompositeConfig" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		dbkVtat [label="DefaultConfigProvider" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		ddJkLV8 [label="ModuleCollector" style=filled fillcolor="#a2c4c9ff"]
+	
+
+	label = "github.com/dddplayer/hugoverse/internal/domain/config"
+
+	
+    }
 		subgraph cluster_ddaltgo {
 	
 		
 		db0ygcI [label="HugoSites" style=filled fillcolor="#ffd966ff"]
 	
 		
-		dOjUuK [label="HugoSitesInit" style=filled fillcolor="#ffe599ff"]
+		ddBLawK [label="TargetPathDescriptor" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dQwYKu [label="pageContentOutput" style=filled fillcolor="#ffe599ff"]
+	
+		
+		deei0uZ [label="zeroFile" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dC8XhM [label="pagePaths" style=filled fillcolor="#ffe599ff"]
 	
 		
 		ddgcF8m [label="Site" style=filled fillcolor="#ffe599ff"]
 	
 		
-		dc24NLe [label="Type" style=filled fillcolor="#a2c4c9ff"]
+		dc3442K [label="cmInsertKeyBuilder" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dep7gpP [label="DestinationPublisher" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dEweAW [label="ContentTree" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dcCTlHJ [label="fileInfo" style=filled fillcolor="#ffe599ff"]
+	
+		
+		ddS1WyJ [label="pagesProcessor" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dbFcQlI [label="pagesCollector" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dc5YKHl [label="pageCommon" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dRS8mj [label="pageContentMap" style=filled fillcolor="#ffe599ff"]
+	
+		
+		ddU7tj9 [label="pageMaps" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dbO0RL0 [label="PageMap" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dcGPjng [label="contentNode" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dcnZZD7 [label="FileInfo" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dbKmtmP [label="PageCollections" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dKH9VF [label="pageOutput" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dWJpvn [label="pageContentReplacement" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dcw85G0 [label="targetPathsHolder" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dmcsBd [label="pageMeta" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dbAeaiu [label="sitePagesProcessor" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dconq9N [label="pageContent" style=filled fillcolor="#ffe599ff"]
+	
+		
+		drovn7 [label="pageState" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dP3ytd [label="rawPageContent" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dc14DxC [label="ContentMap" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dVJrim [label="OutputFormat" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		dRIVQp [label="layoutBuilder" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		dOWppl [label="TargetPaths" style=filled fillcolor="#a2c4c9ff"]
 	
 		
 		ddAqdaj [label="Format" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		drhFkH [label="LayoutDescriptor" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		dc24NLe [label="Type" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		ddIFcAv [label="layoutCacheKey" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		dC4HW4 [label="LayoutHandler" style=filled fillcolor="#a2c4c9ff"]
 	
 
 	label = "github.com/dddplayer/hugoverse/internal/domain/hugosites"
@@ -77,16 +192,87 @@ digraph {
 
 	
     }
-		subgraph cluster_dcfkkVV {
+		subgraph cluster_dQal5L {
 	
 		
-		dcz4kLe [label="Template" style=filled fillcolor="#ffd966ff"]
+		ddfgK1A [label="ContentSpec" style=filled fillcolor="#ffd966ff"]
 	
 		
-		ddXpoTx [label="TextTemplate" style=filled fillcolor="#ffe599ff"]
+		djj42j [label="ConverterRegistry" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dbWVQuL [label="mdConverter" style=filled fillcolor="#ffe599ff"]
+	
+		
+		d2DrI7 [label="provide" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dehVmB9 [label="converterResult" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dc4BaeJ [label="ConverterProvider" style=filled fillcolor="#ffe599ff"]
 	
 
-	label = "github.com/dddplayer/hugoverse/internal/domain/template"
+	label = "github.com/dddplayer/hugoverse/internal/domain/contentspec"
+
+	
+    }
+		subgraph cluster_dehGEGK {
+	
+		
+		dBzzq [label="Fs" style=filled fillcolor="#ffd966ff"]
+	
+		
+		dcGlEaJ [label="fileInfoMeta" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		dcyvuA4 [label="DirNameOnlyFileInfo" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		db1wLZA [label="Walkway" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		ddWCIgh [label="FileMeta" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		dbuKw8o [label="RootMapping" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		debkWHk [label="SourceFilesystems" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dbPeaA7 [label="rootMappingFile" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dwtquj [label="baseFileDecoratorFile" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dcupCqA [label="RootMappingFs" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dd33y4k [label="FilesystemsCollector" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dblbwUB [label="BaseFs" style=filled fillcolor="#ffe599ff"]
+	
+		
+		db4stsZ [label="SourceFilesystem" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dH8Bt6 [label="BaseFileDecoratorFs" style=filled fillcolor="#ffe599ff"]
+	
+
+	label = "github.com/dddplayer/hugoverse/internal/domain/fs"
+
+	
+    }
+		subgraph cluster_dd3W6xt {
+	
+		
+		ddz2rrG [label="Language" style=filled fillcolor="#ffd966ff"]
+	
+
+	label = "github.com/dddplayer/hugoverse/internal/domain/language"
 
 	
     }
@@ -103,15 +289,6 @@ digraph {
 
 	
     }
-		subgraph cluster_dd3W6xt {
-	
-		
-		ddz2rrG [label="Language" style=filled fillcolor="#ffd966ff"]
-	
-
-	label = "github.com/dddplayer/hugoverse/internal/domain/language"
-
-	
     }
 		subgraph cluster_dctHGkf {
 	
@@ -119,62 +296,21 @@ digraph {
 		dco61II [label="Config" style=filled fillcolor="#ffd966ff"]
 	
 		
-		dbkVtat [label="DefaultConfigProvider" style=filled fillcolor="#a2c4c9ff"]
-	
-		
-		ddJkLV8 [label="ModuleCollector" style=filled fillcolor="#a2c4c9ff"]
-	
-		
 		dbgAW26 [label="moduleAdapter" style=filled fillcolor="#a2c4c9ff"]
 	
 		
 		dcG2zGK [label="CompositeConfig" style=filled fillcolor="#a2c4c9ff"]
 	
+		
+		dbkVtat [label="DefaultConfigProvider" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		ddJkLV8 [label="ModuleCollector" style=filled fillcolor="#a2c4c9ff"]
+	
 
 	label = "github.com/dddplayer/hugoverse/internal/domain/config"
 
 	
-    }
-		subgraph cluster_dehGEGK {
-	
-		
-		dBzzq [label="Fs" style=filled fillcolor="#ffd966ff"]
-	
-		
-		dbuKw8o [label="RootMapping" style=filled fillcolor="#a2c4c9ff"]
-	
-		
-		dcGlEaJ [label="fileInfoMeta" style=filled fillcolor="#a2c4c9ff"]
-	
-		
-		ddWCIgh [label="FileMeta" style=filled fillcolor="#a2c4c9ff"]
-	
-		
-		dwtquj [label="baseFileDecoratorFile" style=filled fillcolor="#ffe599ff"]
-	
-		
-		dd33y4k [label="FilesystemsCollector" style=filled fillcolor="#ffe599ff"]
-	
-		
-		dH8Bt6 [label="BaseFileDecoratorFs" style=filled fillcolor="#ffe599ff"]
-	
-		
-		debkWHk [label="SourceFilesystems" style=filled fillcolor="#ffe599ff"]
-	
-		
-		dcupCqA [label="RootMappingFs" style=filled fillcolor="#ffe599ff"]
-	
-		
-		dblbwUB [label="BaseFs" style=filled fillcolor="#ffe599ff"]
-	
-		
-		db4stsZ [label="SourceFilesystem" style=filled fillcolor="#ffe599ff"]
-	
-
-	label = "github.com/dddplayer/hugoverse/internal/domain/fs"
-
-	
-    }
     }
 		subgraph cluster_ddaltgo {
 	
@@ -182,16 +318,109 @@ digraph {
 		db0ygcI [label="HugoSites" style=filled fillcolor="#ffd966ff"]
 	
 		
-		dOjUuK [label="HugoSitesInit" style=filled fillcolor="#ffe599ff"]
+		ddBLawK [label="TargetPathDescriptor" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dQwYKu [label="pageContentOutput" style=filled fillcolor="#ffe599ff"]
+	
+		
+		deei0uZ [label="zeroFile" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dC8XhM [label="pagePaths" style=filled fillcolor="#ffe599ff"]
 	
 		
 		ddgcF8m [label="Site" style=filled fillcolor="#ffe599ff"]
 	
 		
-		dc24NLe [label="Type" style=filled fillcolor="#a2c4c9ff"]
+		dc3442K [label="cmInsertKeyBuilder" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dep7gpP [label="DestinationPublisher" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dEweAW [label="ContentTree" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dcCTlHJ [label="fileInfo" style=filled fillcolor="#ffe599ff"]
+	
+		
+		ddS1WyJ [label="pagesProcessor" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dbFcQlI [label="pagesCollector" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dc5YKHl [label="pageCommon" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dRS8mj [label="pageContentMap" style=filled fillcolor="#ffe599ff"]
+	
+		
+		ddU7tj9 [label="pageMaps" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dbO0RL0 [label="PageMap" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dcGPjng [label="contentNode" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dcnZZD7 [label="FileInfo" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dbKmtmP [label="PageCollections" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dKH9VF [label="pageOutput" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dWJpvn [label="pageContentReplacement" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dcw85G0 [label="targetPathsHolder" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dmcsBd [label="pageMeta" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dbAeaiu [label="sitePagesProcessor" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dconq9N [label="pageContent" style=filled fillcolor="#ffe599ff"]
+	
+		
+		drovn7 [label="pageState" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dP3ytd [label="rawPageContent" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dc14DxC [label="ContentMap" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dVJrim [label="OutputFormat" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		dRIVQp [label="layoutBuilder" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		dOWppl [label="TargetPaths" style=filled fillcolor="#a2c4c9ff"]
 	
 		
 		ddAqdaj [label="Format" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		drhFkH [label="LayoutDescriptor" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		dc24NLe [label="Type" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		ddIFcAv [label="layoutCacheKey" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		dC4HW4 [label="LayoutHandler" style=filled fillcolor="#a2c4c9ff"]
 	
 
 	label = "github.com/dddplayer/hugoverse/internal/domain/hugosites"
@@ -211,16 +440,87 @@ digraph {
 
 	
     }
-		subgraph cluster_dcfkkVV {
+		subgraph cluster_dQal5L {
 	
 		
-		dcz4kLe [label="Template" style=filled fillcolor="#ffd966ff"]
+		ddfgK1A [label="ContentSpec" style=filled fillcolor="#ffd966ff"]
 	
 		
-		ddXpoTx [label="TextTemplate" style=filled fillcolor="#ffe599ff"]
+		djj42j [label="ConverterRegistry" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dbWVQuL [label="mdConverter" style=filled fillcolor="#ffe599ff"]
+	
+		
+		d2DrI7 [label="provide" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dehVmB9 [label="converterResult" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dc4BaeJ [label="ConverterProvider" style=filled fillcolor="#ffe599ff"]
 	
 
-	label = "github.com/dddplayer/hugoverse/internal/domain/template"
+	label = "github.com/dddplayer/hugoverse/internal/domain/contentspec"
+
+	
+    }
+		subgraph cluster_dehGEGK {
+	
+		
+		dBzzq [label="Fs" style=filled fillcolor="#ffd966ff"]
+	
+		
+		dcGlEaJ [label="fileInfoMeta" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		dcyvuA4 [label="DirNameOnlyFileInfo" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		db1wLZA [label="Walkway" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		ddWCIgh [label="FileMeta" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		dbuKw8o [label="RootMapping" style=filled fillcolor="#a2c4c9ff"]
+	
+		
+		debkWHk [label="SourceFilesystems" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dbPeaA7 [label="rootMappingFile" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dwtquj [label="baseFileDecoratorFile" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dcupCqA [label="RootMappingFs" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dd33y4k [label="FilesystemsCollector" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dblbwUB [label="BaseFs" style=filled fillcolor="#ffe599ff"]
+	
+		
+		db4stsZ [label="SourceFilesystem" style=filled fillcolor="#ffe599ff"]
+	
+		
+		dH8Bt6 [label="BaseFileDecoratorFs" style=filled fillcolor="#ffe599ff"]
+	
+
+	label = "github.com/dddplayer/hugoverse/internal/domain/fs"
+
+	
+    }
+		subgraph cluster_dd3W6xt {
+	
+		
+		ddz2rrG [label="Language" style=filled fillcolor="#ffd966ff"]
+	
+
+	label = "github.com/dddplayer/hugoverse/internal/domain/language"
 
 	
     }
@@ -237,125 +537,156 @@ digraph {
 
 	
     }
-		subgraph cluster_dd3W6xt {
-	
-		
-		ddz2rrG [label="Language" style=filled fillcolor="#ffd966ff"]
-	
-
-	label = "github.com/dddplayer/hugoverse/internal/domain/language"
 
 	
-    }
-		subgraph cluster_dctHGkf {
-	
-		
-		dco61II [label="Config" style=filled fillcolor="#ffd966ff"]
-	
-		
-		dbkVtat [label="DefaultConfigProvider" style=filled fillcolor="#a2c4c9ff"]
-	
-		
-		ddJkLV8 [label="ModuleCollector" style=filled fillcolor="#a2c4c9ff"]
-	
-		
-		dbgAW26 [label="moduleAdapter" style=filled fillcolor="#a2c4c9ff"]
-	
-		
-		dcG2zGK [label="CompositeConfig" style=filled fillcolor="#a2c4c9ff"]
-	
-
-	label = "github.com/dddplayer/hugoverse/internal/domain/config"
-
-	
-    }
-		subgraph cluster_dehGEGK {
-	
-		
-		dBzzq [label="Fs" style=filled fillcolor="#ffd966ff"]
-	
-		
-		dbuKw8o [label="RootMapping" style=filled fillcolor="#a2c4c9ff"]
-	
-		
-		dcGlEaJ [label="fileInfoMeta" style=filled fillcolor="#a2c4c9ff"]
-	
-		
-		ddWCIgh [label="FileMeta" style=filled fillcolor="#a2c4c9ff"]
-	
-		
-		dwtquj [label="baseFileDecoratorFile" style=filled fillcolor="#ffe599ff"]
-	
-		
-		dd33y4k [label="FilesystemsCollector" style=filled fillcolor="#ffe599ff"]
-	
-		
-		dH8Bt6 [label="BaseFileDecoratorFs" style=filled fillcolor="#ffe599ff"]
-	
-		
-		debkWHk [label="SourceFilesystems" style=filled fillcolor="#ffe599ff"]
-	
-		
-		dcupCqA [label="RootMappingFs" style=filled fillcolor="#ffe599ff"]
-	
-		
-		dblbwUB [label="BaseFs" style=filled fillcolor="#ffe599ff"]
-	
-		
-		db4stsZ [label="SourceFilesystem" style=filled fillcolor="#ffe599ff"]
-	
-
-	label = "github.com/dddplayer/hugoverse/internal/domain/fs"
-
-	
-    }
-
-	
-		ddgcF8m -> db0ygcI  [style=dotted arrowhead=normal label="1" tooltip="Site -> HugoSites: \n\nFrom: site.go (Line: 14, Column: 2) To: . (Line: -1, Column: 0)\n"]
-		db0ygcI -> ddgcF8m  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> Site: \n\n"]
-		dPwrvt -> ddz2rrG  [style=dotted arrowhead=normal label="1" tooltip="DepsCfg -> Language: \n\nFrom: cfg.go (Line: 26, Column: 2) To: . (Line: -1, Column: 0)\n"]
-		dc6sg9K -> dcAH18s  [style=dotted arrowhead=diamond label="1" tooltip="PathSpec -> Paths: \n\n"]
-		dUQ30Z -> dc6sg9K  [style=dotted arrowhead=diamond label="1" tooltip="hugoverse -> PathSpec: \n\n"]
-		dco61II -> ddJkLV8  [style=solid arrowhead=normal label="1" tooltip="Config -> ModuleCollector: \n\nFrom: config.go (Line: 78, Column: 19) To: collect.go (Line: 18, Column: 28)\n"]
-		dBzzq -> dcupCqA  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> RootMappingFs: \n\n"]
-		db0ygcI -> ddAqdaj  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> Format: \n\n"]
-		dblbwUB -> dd33y4k  [style=dotted arrowhead=normal label="1" tooltip="BaseFs -> FilesystemsCollector: \n\nFrom: basefs.go (Line: 25, Column: 2) To: . (Line: -1, Column: 0)\n"]
-		dUQ30Z -> ddz2rrG  [style=dotted arrowhead=diamond label="1" tooltip="hugoverse -> Language: \n\n"]
-		dBzzq -> dbuKw8o  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> RootMapping: \n\n"]
-		dBzzq -> ddWCIgh  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> FileMeta: \n\n"]
-		dBzzq -> dd33y4k  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> FilesystemsCollector: \n\n"]
-		dBzzq -> dblbwUB  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> BaseFs: \n\n"]
-		dUQ30Z -> db0ygcI  [style=dotted arrowhead=diamond label="1" tooltip="hugoverse -> HugoSites: \n\n"]
-		dUQ30Z -> dcz4kLe  [style=dotted arrowhead=diamond label="1" tooltip="hugoverse -> Template: \n\n"]
-		ddJkLV8 -> dbgAW26  [style=solid arrowhead=normal label="1" tooltip="ModuleCollector -> moduleAdapter: \n\nFrom: collect.go (Line: 37, Column: 30) To: module.go (Line: 13, Column: 25)\n"]
-		dco61II -> ddJkLV8  [style=dotted arrowhead=diamond label="1" tooltip="Config -> ModuleCollector: \n\n"]
-		dco61II -> dbgAW26  [style=dotted arrowhead=diamond label="1" tooltip="Config -> moduleAdapter: \n\n"]
-		dcGlEaJ -> ddWCIgh  [style=dotted arrowhead=normal label="1" tooltip="fileInfoMeta -> FileMeta: \n\nFrom: fileinfometa.go (Line: 8, Column: 2) To: . (Line: -1, Column: 0)\n"]
-		dBzzq -> db4stsZ  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> SourceFilesystem: \n\n"]
-		db0ygcI -> dc24NLe  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> Type: \n\n"]
-		ddAqdaj -> dc24NLe  [style=dotted arrowhead=normal label="1" tooltip="Format -> Type: \n\nFrom: format.go (Line: 14, Column: 2) To: . (Line: -1, Column: 0)\n"]
-		db0ygcI -> dOjUuK  [style=dotted arrowhead=normal label="1" tooltip="HugoSites -> HugoSitesInit: \n\nFrom: hugosites.go (Line: 11, Column: 2) To: . (Line: -1, Column: 0)\n"]
-		d1WLf4 -> ddz2rrG  [style=dotted arrowhead=normal label="1" tooltip="Deps -> Language: \n\nFrom: deps.go (Line: 16, Column: 2) To: . (Line: -1, Column: 0)\n"]
-		dco61II -> dbkVtat  [style=dotted arrowhead=diamond label="1" tooltip="Config -> DefaultConfigProvider: \n\n"]
-		dco61II -> dcG2zGK  [style=dotted arrowhead=diamond label="1" tooltip="Config -> CompositeConfig: \n\n"]
-		dBzzq -> debkWHk  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> SourceFilesystems: \n\n"]
-		dUQ30Z -> dBzzq  [style=dotted arrowhead=diamond label="1" tooltip="hugoverse -> Fs: \n\n"]
-		dc6sg9K -> dcAH18s  [style=dotted arrowhead=normal label="1" tooltip="PathSpec -> Paths: \n\nFrom: pathspec.go (Line: 11, Column: 2) To: . (Line: -1, Column: 0)\n"]
-		dd33y4k -> dcupCqA  [style=solid arrowhead=normal label="1" tooltip="FilesystemsCollector -> RootMappingFs: \n\nFrom: filesystemscollector.go (Line: 28, Column: 23) To: rootmappingfs.go (Line: 24, Column: 25)\n"]
-		dc6sg9K -> dblbwUB  [style=dotted arrowhead=normal label="1" tooltip="PathSpec -> BaseFs: \n\nFrom: pathspec.go (Line: 12, Column: 2) To: . (Line: -1, Column: 0)\n"]
-		dwtquj -> dH8Bt6  [style=dotted arrowhead=normal label="1" tooltip="baseFileDecoratorFile -> BaseFileDecoratorFs: \n\nFrom: basefiledecoratorfs.go (Line: 61, Column: 2) To: . (Line: -1, Column: 0)\n"]
 		dUQ30Z -> dco61II  [style=dotted arrowhead=diamond label="1" tooltip="hugoverse -> Config: \n\n"]
-		dBzzq -> dH8Bt6  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> BaseFileDecoratorFs: \n\n"]
-		db0ygcI -> dOjUuK  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> HugoSitesInit: \n\n"]
-		dblbwUB -> debkWHk  [style=dotted arrowhead=normal label="1" tooltip="BaseFs -> SourceFilesystems: \n\nFrom: basefs.go (Line: 13, Column: 2) To: . (Line: -1, Column: 0)\n"]
-		dUQ30Z -> d1WLf4  [style=dotted arrowhead=diamond label="1" tooltip="hugoverse -> Deps: \n\n"]
-		dcz4kLe -> ddXpoTx  [style=dotted arrowhead=diamond label="1" tooltip="Template -> TextTemplate: \n\n"]
-		dBzzq -> dcGlEaJ  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> fileInfoMeta: \n\n"]
-		dBzzq -> dwtquj  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> baseFileDecoratorFile: \n\n"]
-		ddgcF8m -> ddz2rrG  [style=dotted arrowhead=normal label="1" tooltip="Site -> Language: \n\nFrom: site.go (Line: 16, Column: 2) To: . (Line: -1, Column: 0)\n"]
-		d1WLf4 -> dPwrvt  [style=dotted arrowhead=diamond label="1" tooltip="Deps -> DepsCfg: \n\n"]
+		db0ygcI -> ddBLawK  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> TargetPathDescriptor: \n\n"]
+		db0ygcI -> dRS8mj  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> pageContentMap: \n\n"]
+		db0ygcI -> dcnZZD7  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> FileInfo: \n\n"]
+		db0ygcI -> dVJrim  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> OutputFormat: \n\n"]
+		db0ygcI -> ddgcF8m  [style=solid arrowhead=normal label="4" tooltip="HugoSites -> Site: \n\nFrom: hugosites.go (Line: 57, Column: 22) To: site.go (Line: 136, Column: 16)\nFrom: hugosites.go (Line: 45, Column: 26) To: site.go (Line: 53, Column: 16)\nFrom: hugosites.go (Line: 69, Column: 36) To: site.go (Line: 160, Column: 16)\nFrom: hugosites.go (Line: 72, Column: 21) To: site.go (Line: 179, Column: 16)\n"]
+		dc6sg9K -> dblbwUB  [style=dotted arrowhead=normal label="1" tooltip="PathSpec -> BaseFs: \n\nFrom: pathspec.go (Line: 13, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dc5YKHl -> ddBLawK  [style=dotted arrowhead=normal label="1" tooltip="pageCommon -> TargetPathDescriptor: \n\nFrom: pagecommon.go (Line: 36, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		drovn7 -> dRS8mj  [style=solid arrowhead=normal label="1" tooltip="pageState -> pageContentMap: \n\nFrom: pagestate.go (Line: 60, Column: 15) To: pagecontent.go (Line: 29, Column: 26)\n"]
+		ddgcF8m -> dbKmtmP  [style=dotted arrowhead=normal label="1" tooltip="Site -> PageCollections: \n\nFrom: site.go (Line: 50, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		db0ygcI -> dC8XhM  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> pagePaths: \n\n"]
+		d1WLf4 -> ddfgK1A  [style=dotted arrowhead=normal label="1" tooltip="Deps -> ContentSpec: \n\nFrom: deps.go (Line: 32, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dQwYKu -> ddAqdaj  [style=dotted arrowhead=normal label="1" tooltip="pageContentOutput -> Format: \n\nFrom: pagecontentoutput.go (Line: 72, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		db0ygcI -> dOWppl  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> TargetPaths: \n\n"]
+		ddfgK1A -> d2DrI7  [style=dotted arrowhead=diamond label="1" tooltip="ContentSpec -> provide: \n\n"]
 		debkWHk -> db4stsZ  [style=dotted arrowhead=normal label="1" tooltip="SourceFilesystems -> SourceFilesystem: \n\nFrom: sourcefs.go (Line: 30, Column: 2) To: . (Line: -1, Column: 0)\n"]
-		d1WLf4 -> dc6sg9K  [style=dotted arrowhead=normal label="1" tooltip="Deps -> PathSpec: \n\nFrom: deps.go (Line: 27, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dd33y4k -> dcupCqA  [style=solid arrowhead=normal label="1" tooltip="FilesystemsCollector -> RootMappingFs: \n\nFrom: filesystemscollector.go (Line: 28, Column: 23) To: rootmappingfs.go (Line: 28, Column: 25)\n"]
+		ddIFcAv -> drhFkH  [style=dotted arrowhead=normal label="1" tooltip="layoutCacheKey -> LayoutDescriptor: \n\nFrom: layout.go (Line: 33, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		db0ygcI -> dKH9VF  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> pageOutput: \n\n"]
+		db0ygcI -> drovn7  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> pageState: \n\n"]
+		db0ygcI -> dc5YKHl  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> pageCommon: \n\n"]
+		dbPeaA7 -> dcupCqA  [style=solid arrowhead=normal label="1" tooltip="rootMappingFile -> RootMappingFs: \n\nFrom: rootmappingfile.go (Line: 42, Column: 31) To: rootmappingfs.go (Line: 190, Column: 25)\n"]
+		dcupCqA -> dbuKw8o  [style=solid arrowhead=normal label="1" tooltip="RootMappingFs -> RootMapping: \n\nFrom: rootmappingfs.go (Line: 156, Column: 27) To: rootmapping.go (Line: 36, Column: 22)\n"]
+		dc14DxC -> dc3442K  [style=solid arrowhead=normal label="3" tooltip="ContentMap -> cmInsertKeyBuilder: \n\nFrom: pagemap.go (Line: 71, Column: 36) To: pagemap.go (Line: 178, Column: 29)\nFrom: pagemap.go (Line: 71, Column: 19) To: pagemap.go (Line: 160, Column: 30)\nFrom: pagemap.go (Line: 71, Column: 55) To: pagemap.go (Line: 199, Column: 30)\n"]
+		db0ygcI -> dcCTlHJ  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> fileInfo: \n\n"]
+		db0ygcI -> dbFcQlI  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> pagesCollector: \n\n"]
+		ddU7tj9 -> dc14DxC  [style=solid arrowhead=normal label="1" tooltip="pageMaps -> ContentMap: \n\nFrom: pagemaps.go (Line: 15, Column: 34) To: pagemap.go (Line: 217, Column: 22)\n"]
+		db0ygcI -> dbO0RL0  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> PageMap: \n\n"]
+		db0ygcI -> dc14DxC  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> ContentMap: \n\n"]
+		db0ygcI -> dc24NLe  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> Type: \n\n"]
+		dcGlEaJ -> ddWCIgh  [style=dotted arrowhead=normal label="1" tooltip="fileInfoMeta -> FileMeta: \n\nFrom: fileinfometa.go (Line: 8, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dwtquj -> dH8Bt6  [style=dotted arrowhead=normal label="1" tooltip="baseFileDecoratorFile -> BaseFileDecoratorFs: \n\nFrom: basefiledecoratorfs.go (Line: 79, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dQwYKu -> ddgcF8m  [style=solid arrowhead=normal label="1" tooltip="pageContentOutput -> Site: \n\nFrom: pagecontentoutput.go (Line: 114, Column: 20) To: site.go (Line: 171, Column: 16)\n"]
+		dbKmtmP -> dbO0RL0  [style=dotted arrowhead=normal label="1" tooltip="PageCollections -> PageMap: \n\nFrom: pagecollections.go (Line: 5, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dVJrim -> ddAqdaj  [style=dotted arrowhead=normal label="1" tooltip="OutputFormat -> Format: \n\nFrom: outputformat.go (Line: 20, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dPwrvt -> ddz2rrG  [style=dotted arrowhead=normal label="1" tooltip="DepsCfg -> Language: \n\nFrom: cfg.go (Line: 27, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		ddfgK1A -> dehVmB9  [style=dotted arrowhead=diamond label="1" tooltip="ContentSpec -> converterResult: \n\n"]
+		dBzzq -> ddWCIgh  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> FileMeta: \n\n"]
+		dbO0RL0 -> ddgcF8m  [style=dotted arrowhead=normal label="1" tooltip="PageMap -> Site: \n\nFrom: pagemap.go (Line: 17, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dc5YKHl -> dconq9N  [style=dotted arrowhead=normal label="1" tooltip="pageCommon -> pageContent: \n\nFrom: pagecommon.go (Line: 42, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dcGPjng -> drovn7  [style=dotted arrowhead=normal label="1" tooltip="contentNode -> pageState: \n\nFrom: content.go (Line: 9, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dC8XhM -> ddBLawK  [style=dotted arrowhead=normal label="1" tooltip="pagePaths -> TargetPathDescriptor: \n\nFrom: pagepath.go (Line: 72, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		db0ygcI -> dEweAW  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> ContentTree: \n\n"]
+		dc14DxC -> dEweAW  [style=dotted arrowhead=normal label="1" tooltip="ContentMap -> ContentTree: \n\nFrom: pagemap.go (Line: 52, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		db0ygcI -> dep7gpP  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> DestinationPublisher: \n\n"]
+		dblbwUB -> debkWHk  [style=dotted arrowhead=normal label="1" tooltip="BaseFs -> SourceFilesystems: \n\nFrom: basefs.go (Line: 13, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dBzzq -> dH8Bt6  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> BaseFileDecoratorFs: \n\n"]
+		dbO0RL0 -> drovn7  [style=solid arrowhead=normal label="2" tooltip="PageMap -> pageState: \n\nFrom: pagemap.go (Line: 388, Column: 35) To: pagestate.go (Line: 109, Column: 21)\nFrom: pagemap.go (Line: 348, Column: 25) To: pagestate.go (Line: 24, Column: 21)\n"]
+		db0ygcI -> dcGPjng  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> contentNode: \n\n"]
+		dbAeaiu -> dbO0RL0  [style=dotted arrowhead=normal label="1" tooltip="sitePagesProcessor -> PageMap: \n\nFrom: pageprocessor.go (Line: 66, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		db0ygcI -> ddgcF8m  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> Site: \n\n"]
+		db0ygcI -> dcw85G0  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> targetPathsHolder: \n\n"]
+		dRIVQp -> ddAqdaj  [style=dotted arrowhead=normal label="1" tooltip="layoutBuilder -> Format: \n\nFrom: layout.go (Line: 135, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dRIVQp -> drhFkH  [style=dotted arrowhead=normal label="1" tooltip="layoutBuilder -> LayoutDescriptor: \n\nFrom: layout.go (Line: 134, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		ddfgK1A -> dc4BaeJ  [style=dotted arrowhead=diamond label="1" tooltip="ContentSpec -> ConverterProvider: \n\n"]
+		dbO0RL0 -> dKH9VF  [style=solid arrowhead=normal label="1" tooltip="PageMap -> pageOutput: \n\nFrom: pagemap.go (Line: 384, Column: 27) To: pageoutput.go (Line: 61, Column: 22)\n"]
+		dbuKw8o -> ddWCIgh  [style=dotted arrowhead=normal label="1" tooltip="RootMapping -> FileMeta: \n\nFrom: rootmapping.go (Line: 23, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		db0ygcI -> ddU7tj9  [style=solid arrowhead=normal label="1" tooltip="HugoSites -> pageMaps: \n\nFrom: hugosites.go (Line: 49, Column: 44) To: pagemaps.go (Line: 13, Column: 20)\n"]
+		dUQ30Z -> db0ygcI  [style=dotted arrowhead=diamond label="1" tooltip="hugoverse -> HugoSites: \n\n"]
+		ddBLawK -> ddAqdaj  [style=dotted arrowhead=normal label="1" tooltip="TargetPathDescriptor -> Format: \n\nFrom: targetpath.go (Line: 28, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dc5YKHl -> ddgcF8m  [style=dotted arrowhead=normal label="1" tooltip="pageCommon -> Site: \n\nFrom: pagecommon.go (Line: 12, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dc5YKHl -> drovn7  [style=dotted arrowhead=normal label="1" tooltip="pageCommon -> pageState: \n\nFrom: pagecommon.go (Line: 57, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dQwYKu -> drovn7  [style=solid arrowhead=normal label="1" tooltip="pageContentOutput -> pageState: \n\nFrom: pagecontentoutput.go (Line: 99, Column: 31) To: pagestate.go (Line: 116, Column: 21)\n"]
+		dcw85G0 -> dOWppl  [style=dotted arrowhead=normal label="1" tooltip="targetPathsHolder -> TargetPaths: \n\nFrom: targetpath.go (Line: 13, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dbO0RL0 -> dc14DxC  [style=dotted arrowhead=normal label="1" tooltip="PageMap -> ContentMap: \n\nFrom: pagemap.go (Line: 18, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dBzzq -> dwtquj  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> baseFileDecoratorFile: \n\n"]
+		dBzzq -> db4stsZ  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> SourceFilesystem: \n\n"]
+		dBzzq -> debkWHk  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> SourceFilesystems: \n\n"]
+		dKH9VF -> dQwYKu  [style=dotted arrowhead=normal label="1" tooltip="pageOutput -> pageContentOutput: \n\nFrom: pageoutput.go (Line: 28, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		drovn7 -> dKH9VF  [style=dotted arrowhead=normal label="1" tooltip="pageState -> pageOutput: \n\nFrom: pagestate.go (Line: 18, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dbO0RL0 -> dc14DxC  [style=solid arrowhead=normal label="1" tooltip="PageMap -> ContentMap: \n\nFrom: pagemap.go (Line: 248, Column: 28) To: pagemap.go (Line: 116, Column: 22)\n"]
+		db0ygcI -> dbKmtmP  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> PageCollections: \n\n"]
+		db0ygcI -> ddAqdaj  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> Format: \n\n"]
+		db0ygcI -> dC4HW4  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> LayoutHandler: \n\n"]
+		db0ygcI -> ddU7tj9  [style=dotted arrowhead=normal label="1" tooltip="HugoSites -> pageMaps: \n\nFrom: hugosites.go (Line: 17, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dbPeaA7 -> ddWCIgh  [style=dotted arrowhead=normal label="1" tooltip="rootMappingFile -> FileMeta: \n\nFrom: rootmappingfile.go (Line: 13, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dBzzq -> dd33y4k  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> FilesystemsCollector: \n\n"]
+		dUQ30Z -> dc6sg9K  [style=dotted arrowhead=diamond label="1" tooltip="hugoverse -> PathSpec: \n\n"]
+		dco61II -> dbkVtat  [style=dotted arrowhead=diamond label="1" tooltip="Config -> DefaultConfigProvider: \n\n"]
+		dc5YKHl -> dmcsBd  [style=dotted arrowhead=normal label="1" tooltip="pageCommon -> pageMeta: \n\nFrom: pagecommon.go (Line: 13, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dc14DxC -> dcGPjng  [style=solid arrowhead=normal label="1" tooltip="ContentMap -> contentNode: \n\nFrom: pagemap.go (Line: 108, Column: 22) To: content.go (Line: 22, Column: 23)\n"]
+		db0ygcI -> dbAeaiu  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> sitePagesProcessor: \n\n"]
+		dco61II -> ddJkLV8  [style=dotted arrowhead=diamond label="1" tooltip="Config -> ModuleCollector: \n\n"]
+		dbO0RL0 -> dmcsBd  [style=solid arrowhead=normal label="2" tooltip="PageMap -> pageMeta: \n\nFrom: pagemap.go (Line: 351, Column: 33) To: pagemeta.go (Line: 73, Column: 20)\nFrom: pagemap.go (Line: 363, Column: 45) To: pagemeta.go (Line: 104, Column: 20)\n"]
+		dC8XhM -> dcw85G0  [style=dotted arrowhead=normal label="1" tooltip="pagePaths -> targetPathsHolder: \n\nFrom: pagepath.go (Line: 71, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		db0ygcI -> dRIVQp  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> layoutBuilder: \n\n"]
+		db0ygcI -> ddIFcAv  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> layoutCacheKey: \n\n"]
+		dbPeaA7 -> dcupCqA  [style=dotted arrowhead=normal label="1" tooltip="rootMappingFile -> RootMappingFs: \n\nFrom: rootmappingfile.go (Line: 11, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		db0ygcI -> ddU7tj9  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> pageMaps: \n\n"]
+		dblbwUB -> dd33y4k  [style=dotted arrowhead=normal label="1" tooltip="BaseFs -> FilesystemsCollector: \n\nFrom: basefs.go (Line: 25, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dUQ30Z -> dBzzq  [style=dotted arrowhead=diamond label="1" tooltip="hugoverse -> Fs: \n\n"]
+		db0ygcI -> dP3ytd  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> rawPageContent: \n\n"]
+		dc3442K -> dEweAW  [style=dotted arrowhead=normal label="1" tooltip="cmInsertKeyBuilder -> ContentTree: \n\nFrom: pagemap.go (Line: 155, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dUQ30Z -> d1WLf4  [style=dotted arrowhead=diamond label="1" tooltip="hugoverse -> Deps: \n\n"]
+		dUQ30Z -> ddz2rrG  [style=dotted arrowhead=diamond label="1" tooltip="hugoverse -> Language: \n\n"]
+		dconq9N -> dRS8mj  [style=dotted arrowhead=normal label="1" tooltip="pageContent -> pageContentMap: \n\nFrom: pagecontent.go (Line: 12, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		db0ygcI -> dQwYKu  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> pageContentOutput: \n\n"]
+		dBzzq -> dcGlEaJ  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> fileInfoMeta: \n\n"]
+		dBzzq -> dcupCqA  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> RootMappingFs: \n\n"]
+		dco61II -> dcG2zGK  [style=dotted arrowhead=diamond label="1" tooltip="Config -> CompositeConfig: \n\n"]
+		dKH9VF -> ddAqdaj  [style=dotted arrowhead=normal label="1" tooltip="pageOutput -> Format: \n\nFrom: pageoutput.go (Line: 14, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		drovn7 -> dc5YKHl  [style=dotted arrowhead=normal label="1" tooltip="pageState -> pageCommon: \n\nFrom: pagestate.go (Line: 21, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dQwYKu -> drovn7  [style=dotted arrowhead=normal label="1" tooltip="pageContentOutput -> pageState: \n\nFrom: pagecontentoutput.go (Line: 74, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		d1WLf4 -> dc6sg9K  [style=dotted arrowhead=normal label="1" tooltip="Deps -> PathSpec: \n\nFrom: deps.go (Line: 29, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dBzzq -> dcyvuA4  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> DirNameOnlyFileInfo: \n\n"]
+		dBzzq -> dblbwUB  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> BaseFs: \n\n"]
+		ddAqdaj -> dc24NLe  [style=dotted arrowhead=normal label="1" tooltip="Format -> Type: \n\nFrom: format.go (Line: 14, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		db0ygcI -> drhFkH  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> LayoutDescriptor: \n\n"]
+		ddgcF8m -> db0ygcI  [style=dotted arrowhead=normal label="1" tooltip="Site -> HugoSites: \n\nFrom: site.go (Line: 27, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dconq9N -> dP3ytd  [style=dotted arrowhead=normal label="1" tooltip="pageContent -> rawPageContent: \n\nFrom: pagecontent.go (Line: 14, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		drovn7 -> dKH9VF  [style=solid arrowhead=normal label="1" tooltip="pageState -> pageOutput: \n\nFrom: pagestate.go (Line: 96, Column: 34) To: pageoutput.go (Line: 61, Column: 22)\n"]
+		ddgcF8m -> dbO0RL0  [style=solid arrowhead=normal label="1" tooltip="Site -> PageMap: \n\nFrom: site.go (Line: 162, Column: 31) To: pagemap.go (Line: 400, Column: 19)\n"]
+		ddJkLV8 -> dbgAW26  [style=solid arrowhead=normal label="1" tooltip="ModuleCollector -> moduleAdapter: \n\nFrom: collect.go (Line: 37, Column: 30) To: module.go (Line: 13, Column: 25)\n"]
+		dbFcQlI -> db1wLZA  [style=solid arrowhead=normal label="1" tooltip="pagesCollector -> Walkway: \n\nFrom: pagecollector.go (Line: 46, Column: 15) To: walk.go (Line: 31, Column: 19)\n"]
+		dmcsBd -> ddgcF8m  [style=dotted arrowhead=normal label="1" tooltip="pageMeta -> Site: \n\nFrom: pagemeta.go (Line: 61, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dc5YKHl -> drhFkH  [style=dotted arrowhead=normal label="1" tooltip="pageCommon -> LayoutDescriptor: \n\nFrom: pagecommon.go (Line: 38, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		db0ygcI -> dWJpvn  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> pageContentReplacement: \n\n"]
+		dco61II -> ddJkLV8  [style=solid arrowhead=normal label="1" tooltip="Config -> ModuleCollector: \n\nFrom: config.go (Line: 75, Column: 19) To: collect.go (Line: 18, Column: 28)\n"]
+		ddgcF8m -> dbFcQlI  [style=solid arrowhead=normal label="1" tooltip="Site -> pagesCollector: \n\nFrom: site.go (Line: 66, Column: 21) To: pagecollector.go (Line: 24, Column: 26)\n"]
+		dbO0RL0 -> ddgcF8m  [style=solid arrowhead=normal label="3" tooltip="PageMap -> Site: \n\nFrom: pagemap.go (Line: 313, Column: 32) To: site.go (Line: 88, Column: 16)\nFrom: pagemap.go (Line: 314, Column: 38) To: site.go (Line: 107, Column: 16)\nFrom: pagemap.go (Line: 278, Column: 21) To: site.go (Line: 73, Column: 16)\n"]
+		dC4HW4 -> ddIFcAv  [style=dotted arrowhead=normal label="1" tooltip="LayoutHandler -> layoutCacheKey: \n\nFrom: layout.go (Line: 29, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		ddfgK1A -> djj42j  [style=dotted arrowhead=diamond label="1" tooltip="ContentSpec -> ConverterRegistry: \n\n"]
+		dc6sg9K -> dcAH18s  [style=dotted arrowhead=normal label="1" tooltip="PathSpec -> Paths: \n\nFrom: pathspec.go (Line: 12, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dBzzq -> dbPeaA7  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> rootMappingFile: \n\n"]
+		drovn7 -> dmcsBd  [style=solid arrowhead=normal label="1" tooltip="pageState -> pageMeta: \n\nFrom: pagestate.go (Line: 124, Column: 54) To: pagemeta.go (Line: 112, Column: 20)\n"]
+		dc3442K -> dc14DxC  [style=dotted arrowhead=normal label="1" tooltip="cmInsertKeyBuilder -> ContentMap: \n\nFrom: pagemap.go (Line: 150, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		ddgcF8m -> ddz2rrG  [style=dotted arrowhead=normal label="1" tooltip="Site -> Language: \n\nFrom: site.go (Line: 29, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		ddfgK1A -> dbWVQuL  [style=dotted arrowhead=diamond label="1" tooltip="ContentSpec -> mdConverter: \n\n"]
+		dBzzq -> dbuKw8o  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> RootMapping: \n\n"]
+		db0ygcI -> dconq9N  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> pageContent: \n\n"]
+		ddgcF8m -> drovn7  [style=solid arrowhead=normal label="2" tooltip="Site -> pageState: \n\nFrom: site.go (Line: 163, Column: 30) To: pagestate.go (Line: 68, Column: 21)\nFrom: site.go (Line: 285, Column: 31) To: pagestate.go (Line: 146, Column: 21)\n"]
+		db0ygcI -> deei0uZ  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> zeroFile: \n\n"]
+		dcw85G0 -> dVJrim  [style=dotted arrowhead=normal label="1" tooltip="targetPathsHolder -> OutputFormat: \n\nFrom: targetpath.go (Line: 14, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dC8XhM -> dVJrim  [style=dotted arrowhead=normal label="1" tooltip="pagePaths -> OutputFormat: \n\nFrom: pagepath.go (Line: 69, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		db0ygcI -> dc3442K  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> cmInsertKeyBuilder: \n\n"]
+		ddU7tj9 -> dbO0RL0  [style=solid arrowhead=normal label="2" tooltip="pageMaps -> PageMap: \n\nFrom: pagemaps.go (Line: 24, Column: 32) To: pagemap.go (Line: 266, Column: 19)\nFrom: pagemaps.go (Line: 19, Column: 29) To: pagemap.go (Line: 236, Column: 19)\n"]
+		dbAeaiu -> dc14DxC  [style=solid arrowhead=normal label="1" tooltip="sitePagesProcessor -> ContentMap: \n\nFrom: pageprocessor.go (Line: 113, Column: 30) To: pagemap.go (Line: 58, Column: 22)\n"]
+		dc6sg9K -> dcAH18s  [style=dotted arrowhead=diamond label="1" tooltip="PathSpec -> Paths: \n\n"]
+		drovn7 -> dC4HW4  [style=solid arrowhead=normal label="1" tooltip="pageState -> LayoutHandler: \n\nFrom: pagestate.go (Line: 138, Column: 22) To: layout.go (Line: 44, Column: 25)\n"]
+		db0ygcI -> ddS1WyJ  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> pagesProcessor: \n\n"]
+		db0ygcI -> dmcsBd  [style=dotted arrowhead=diamond label="1" tooltip="HugoSites -> pageMeta: \n\n"]
+		d1WLf4 -> ddz2rrG  [style=dotted arrowhead=normal label="1" tooltip="Deps -> Language: \n\nFrom: deps.go (Line: 18, Column: 2) To: . (Line: -1, Column: 0)\n"]
+		dco61II -> dbgAW26  [style=dotted arrowhead=diamond label="1" tooltip="Config -> moduleAdapter: \n\n"]
+		dbO0RL0 -> ddWCIgh  [style=solid arrowhead=normal label="1" tooltip="PageMap -> FileMeta: \n\nFrom: pagemap.go (Line: 309, Column: 19) To: filemeta.go (Line: 75, Column: 20)\n"]
+		d1WLf4 -> dPwrvt  [style=dotted arrowhead=diamond label="1" tooltip="Deps -> DepsCfg: \n\n"]
+		dcupCqA -> ddWCIgh  [style=solid arrowhead=normal label="2" tooltip="RootMappingFs -> FileMeta: \n\nFrom: rootmappingfs.go (Line: 199, Column: 27) To: filemeta.go (Line: 75, Column: 20)\nFrom: rootmappingfs.go (Line: 211, Column: 14) To: filemeta.go (Line: 57, Column: 20)\n"]
+		dUQ30Z -> ddfgK1A  [style=dotted arrowhead=diamond label="1" tooltip="hugoverse -> ContentSpec: \n\n"]
+		dBzzq -> db1wLZA  [style=dotted arrowhead=diamond label="1" tooltip="Fs -> Walkway: \n\n"]
 
 	label = "\n\ngithub.com/dddplayer/hugoverse\nDomain Model\n\nPowered by DDD Player";
     fontsize=20;
